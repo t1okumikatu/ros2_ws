@@ -1,0 +1,38 @@
+[8.046s] Invoking command in '/home/keime/ros2_ws/src/py_pubsub': PYTHONPATH=/home/keime/ros2_ws/build/py_pubsub/prefix_override:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/keime/ros2_ws/build/py_pubsub/build install --record /home/keime/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[10.617s] running egg_info
+[10.622s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[10.624s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[10.626s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[10.628s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[10.629s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[10.631s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[10.633s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[10.648s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[10.657s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[10.659s] running build
+[10.660s] running build_py
+[10.662s] creating /home/keime/ros2_ws/build/py_pubsub/build
+[10.663s] creating /home/keime/ros2_ws/build/py_pubsub/build/lib
+[10.664s] creating /home/keime/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.665s] copying py_pubsub/__init__.py -> /home/keime/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.666s] copying py_pubsub/subscriber_member_function.py -> /home/keime/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.668s] running install
+[10.671s] running install_lib
+[10.678s] creating /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[10.679s] copying /home/keime/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[10.681s] copying /home/keime/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[10.686s] byte-compiling /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[10.689s] byte-compiling /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[10.693s] running install_data
+[10.695s] creating /home/keime/ros2_ws/install/py_pubsub/share/ament_index
+[10.696s] creating /home/keime/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[10.697s] creating /home/keime/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[10.699s] copying resource/py_pubsub -> /home/keime/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[10.700s] copying package.xml -> /home/keime/ros2_ws/install/py_pubsub/share/py_pubsub
+[10.701s] running install_egg_info
+[10.716s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[10.730s] running install_scripts
+[10.927s] Installing listener script to /home/keime/ros2_ws/install/py_pubsub/lib/py_pubsub
+[10.929s] Installing talker script to /home/keime/ros2_ws/install/py_pubsub/lib/py_pubsub
+[10.932s] writing list of installed files to '/home/keime/ros2_ws/build/py_pubsub/install.log'
+[11.190s] Invoked command in '/home/keime/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/py_pubsub/prefix_override:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/keime/ros2_ws/build/py_pubsub/build install --record /home/keime/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+img_publisher = image_pubsub.image_publisher:main
+img_subscriber = image_pubsub.image_subscriber:main
+

@@ -46,7 +46,7 @@ def drive():
     global err_prev_R
     global err_prev_L
     global command_subscriber_action
-    if command_subscriber_action.target_speed_R > -0.01 and command_subscriber.target_speed_R < 0.01:
+    if command_subscriber_action.target_speed_R > -0.01 and command_subscriber_action.target_speed_R < 0.01:
         pi.set_PWM_dutycycle(MOT_R_1, 0)
         pi.set_PWM_dutycycle(MOT_R_2, 0)
         init_variables_R()
@@ -69,7 +69,7 @@ def drive():
             pi.set_PWM_dutycycle(MOT_R_2, -duty_R)
         prev_count_R = count_R
         err_prev_R = err_P
-    if command_subscriber_action.target_speed_L > -0.01 and command_subscriber.target_speed_L < 0.01:
+    if command_subscriber_action.target_speed_L > -0.01 and command_subscriber_action.target_speed_L < 0.01:
         pi.set_PWM_dutycycle(MOT_L_1, 0)
         pi.set_PWM_dutycycle(MOT_L_2, 0)
         init_variables_L()

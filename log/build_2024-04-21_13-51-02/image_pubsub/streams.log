@@ -1,0 +1,25 @@
+[8.309s] Invoking command in '/home/keime/ros2_ws/src/image_pubsub': PYTHONPATH=/home/keime/ros2_ws/build/image_pubsub/prefix_override:/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pubsub build --build-base /home/keime/ros2_ws/build/image_pubsub/build install --record /home/keime/ros2_ws/build/image_pubsub/install.log --single-version-externally-managed install_data
+[10.991s] running egg_info
+[10.997s] writing ../../build/image_pubsub/image_pubsub.egg-info/PKG-INFO
+[11.001s] writing dependency_links to ../../build/image_pubsub/image_pubsub.egg-info/dependency_links.txt
+[11.003s] writing entry points to ../../build/image_pubsub/image_pubsub.egg-info/entry_points.txt
+[11.005s] writing requirements to ../../build/image_pubsub/image_pubsub.egg-info/requires.txt
+[11.007s] writing top-level names to ../../build/image_pubsub/image_pubsub.egg-info/top_level.txt
+[11.025s] reading manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'
+[11.038s] writing manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'
+[11.039s] running build
+[11.040s] running build_py
+[11.046s] copying image_pubsub/image_publisher.py -> /home/keime/ros2_ws/build/image_pubsub/build/lib/image_pubsub
+[11.049s] running install
+[11.052s] running install_lib
+[11.061s] copying /home/keime/ros2_ws/build/image_pubsub/build/lib/image_pubsub/image_publisher.py -> /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub
+[11.069s] byte-compiling /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/image_publisher.py to image_publisher.cpython-310.pyc
+[11.075s] running install_data
+[11.079s] running install_egg_info
+[11.096s] removing '/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[11.100s] Copying ../../build/image_pubsub/image_pubsub.egg-info to /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info
+[11.115s] running install_scripts
+[11.319s] Installing img_publisher script to /home/keime/ros2_ws/install/image_pubsub/lib/image_pubsub
+[11.321s] Installing img_subscriber script to /home/keime/ros2_ws/install/image_pubsub/lib/image_pubsub
+[11.325s] writing list of installed files to '/home/keime/ros2_ws/build/image_pubsub/install.log'
+[11.592s] Invoked command in '/home/keime/ros2_ws/src/image_pubsub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/image_pubsub/prefix_override:/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pubsub build --build-base /home/keime/ros2_ws/build/image_pubsub/build install --record /home/keime/ros2_ws/build/image_pubsub/install.log --single-version-externally-managed install_data

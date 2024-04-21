@@ -30,9 +30,11 @@ class ImagePublisher(Node):
       corners, ids, rejectedImgPoints = aruco.detectMarkers(gray, self.dict_aruco, parameters=self.parameters)
       frame_markers = aruco.drawDetectedMarkers(frame.copy(), corners, ids)
       """
-      dst = cv2.resize(frame_gray, (400,400))
+      #dst = cv2.resize(frame_gray, (400,400))
+      dst = cv2.resize(frame_gray, (160,120))
       self.publisher_.publish(self.br.cv2_to_imgmsg(dst))
-      self.get_logger().info('Publishing video frame')
+      #self.get_logger().info('Publishing video frame')
+      self.get_logger().info('1 フレームを送信')
 
 def main(args=None):
   

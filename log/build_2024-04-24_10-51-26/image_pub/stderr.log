@@ -1,0 +1,5 @@
+  File "/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/image_publisher.py", line 6
+    from cv2  # import aruco
+              ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

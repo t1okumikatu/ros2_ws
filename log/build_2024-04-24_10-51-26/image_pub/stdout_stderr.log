@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/image_pub/image_pub.egg-info
+writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/keime/ros2_ws/build/image_pub/build
+creating /home/keime/ros2_ws/build/image_pub/build/lib
+creating /home/keime/ros2_ws/build/image_pub/build/lib/image_pub
+copying image_pub/__init__.py -> /home/keime/ros2_ws/build/image_pub/build/lib/image_pub
+copying image_pub/image_publisher.py -> /home/keime/ros2_ws/build/image_pub/build/lib/image_pub
+running install
+running install_lib
+creating /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+copying /home/keime/ros2_ws/build/image_pub/build/lib/image_pub/__init__.py -> /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+copying /home/keime/ros2_ws/build/image_pub/build/lib/image_pub/image_publisher.py -> /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+byte-compiling /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/image_publisher.py to image_publisher.cpython-310.pyc
+  File "/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/image_publisher.py", line 6
+    from cv2  # import aruco
+              ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+running install_data
+creating /home/keime/ros2_ws/install/image_pub/share/ament_index
+creating /home/keime/ros2_ws/install/image_pub/share/ament_index/resource_index
+creating /home/keime/ros2_ws/install/image_pub/share/ament_index/resource_index/packages
+copying resource/image_pub -> /home/keime/ros2_ws/install/image_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/keime/ros2_ws/install/image_pub/share/image_pub
+running install_egg_info
+Copying ../../build/image_pub/image_pub.egg-info to /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_publisher script to /home/keime/ros2_ws/install/image_pub/lib/image_pub
+writing list of installed files to '/home/keime/ros2_ws/build/image_pub/install.log'

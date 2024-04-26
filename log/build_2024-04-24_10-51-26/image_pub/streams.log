@@ -1,0 +1,42 @@
+[7.866s] Invoking command in '/home/keime/ros2_ws/src/image_pub': PYTHONPATH=/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/keime/ros2_ws/build/image_pub/build install --record /home/keime/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[10.468s] running egg_info
+[10.473s] creating ../../build/image_pub/image_pub.egg-info
+[10.474s] writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+[10.477s] writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+[10.478s] writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+[10.480s] writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+[10.481s] writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+[10.483s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[10.499s] reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[10.508s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[10.509s] running build
+[10.511s] running build_py
+[10.513s] creating /home/keime/ros2_ws/build/image_pub/build
+[10.514s] creating /home/keime/ros2_ws/build/image_pub/build/lib
+[10.515s] creating /home/keime/ros2_ws/build/image_pub/build/lib/image_pub
+[10.516s] copying image_pub/__init__.py -> /home/keime/ros2_ws/build/image_pub/build/lib/image_pub
+[10.517s] copying image_pub/image_publisher.py -> /home/keime/ros2_ws/build/image_pub/build/lib/image_pub
+[10.519s] running install
+[10.522s] running install_lib
+[10.529s] creating /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+[10.530s] copying /home/keime/ros2_ws/build/image_pub/build/lib/image_pub/__init__.py -> /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+[10.532s] copying /home/keime/ros2_ws/build/image_pub/build/lib/image_pub/image_publisher.py -> /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub
+[10.537s] byte-compiling /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/__init__.py to __init__.cpython-310.pyc
+[10.540s] byte-compiling /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/image_publisher.py to image_publisher.cpython-310.pyc
+[10.543s]   File "/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub/image_publisher.py", line 6
+[10.544s]     from cv2  # import aruco
+[10.545s]               ^^^^^^^^^^^^^^
+[10.546s] SyntaxError: invalid syntax
+[10.547s] 
+[10.548s] running install_data
+[10.549s] creating /home/keime/ros2_ws/install/image_pub/share/ament_index
+[10.550s] creating /home/keime/ros2_ws/install/image_pub/share/ament_index/resource_index
+[10.552s] creating /home/keime/ros2_ws/install/image_pub/share/ament_index/resource_index/packages
+[10.553s] copying resource/image_pub -> /home/keime/ros2_ws/install/image_pub/share/ament_index/resource_index/packages
+[10.554s] copying package.xml -> /home/keime/ros2_ws/install/image_pub/share/image_pub
+[10.555s] running install_egg_info
+[10.566s] Copying ../../build/image_pub/image_pub.egg-info to /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+[10.579s] running install_scripts
+[10.777s] Installing image_publisher script to /home/keime/ros2_ws/install/image_pub/lib/image_pub
+[10.781s] writing list of installed files to '/home/keime/ros2_ws/build/image_pub/install.log'
+[11.038s] Invoked command in '/home/keime/ros2_ws/src/image_pub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/keime/ros2_ws/build/image_pub/build install --record /home/keime/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data

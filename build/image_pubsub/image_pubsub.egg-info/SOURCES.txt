@@ -9,6 +9,7 @@ setup.py
 ../../build/image_pubsub/image_pubsub.egg-info/top_level.txt
 ../../build/image_pubsub/image_pubsub.egg-info/zip-safe
 image_pubsub/__init__.py
+image_pubsub/ar_image_publisher.py
 image_pubsub/image_publisher.py
 image_pubsub/image_subscriber.py
 resource/image_pubsub

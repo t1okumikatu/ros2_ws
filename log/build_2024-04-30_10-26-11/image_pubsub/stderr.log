@@ -1,0 +1,5 @@
+  File "/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/image_subscriber.py", line 26
+    　　　　　　　　　　　　　　　　　 # 水平方向に反転
+    ^
+SyntaxError: invalid non-printable character U+3000
+

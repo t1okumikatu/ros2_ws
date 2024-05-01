@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'controller_node = aruco_controller.controller_node:main'
+            'controller_node = aruco_controller.aruco_controller:main'
         ],
     },
 )

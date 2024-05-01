@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.003084] (-) JobUnselected: {'identifier': 'aruco_controller'}
+[0.004094] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.004701] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005039] (-) JobUnselected: {'identifier': 'robot_controller'}
+[0.005403] (-) JobUnselected: {'identifier': 'robot_controller_gui'}
+[0.005855] (image_pubsub) JobQueued: {'identifier': 'image_pubsub', 'dependencies': OrderedDict()}
+[0.006303] (image_pubsub) JobStarted: {'identifier': 'image_pubsub'}
+[0.095742] (-) TimerEvent: {}
+[0.197496] (-) TimerEvent: {}
+[0.298710] (-) TimerEvent: {}
+[0.399915] (-) TimerEvent: {}
+[0.501190] (-) TimerEvent: {}
+[0.602869] (-) TimerEvent: {}
+[0.705425] (-) TimerEvent: {}
+[0.806741] (-) TimerEvent: {}
+[0.907990] (-) TimerEvent: {}
+[1.009285] (-) TimerEvent: {}
+[1.110471] (-) TimerEvent: {}
+[1.211645] (-) TimerEvent: {}
+[1.312824] (-) TimerEvent: {}
+[1.414019] (-) TimerEvent: {}
+[1.515237] (-) TimerEvent: {}
+[1.616438] (-) TimerEvent: {}
+[1.717706] (-) TimerEvent: {}
+[1.818920] (-) TimerEvent: {}
+[1.920166] (-) TimerEvent: {}
+[2.021376] (-) TimerEvent: {}
+[2.122716] (-) TimerEvent: {}
+[2.223959] (-) TimerEvent: {}
+[2.325246] (-) TimerEvent: {}
+[2.426577] (-) TimerEvent: {}
+[2.527930] (-) TimerEvent: {}
+[2.629354] (-) TimerEvent: {}
+[2.730782] (-) TimerEvent: {}
+[2.832177] (-) TimerEvent: {}
+[2.933656] (-) TimerEvent: {}
+[3.023472] (image_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[3.027948] (image_pubsub) JobEnded: {'identifier': 'image_pubsub', 'rc': 1}
+[3.034657] (-) TimerEvent: {}
+[3.038269] (-) EventReactorShutdown: {}

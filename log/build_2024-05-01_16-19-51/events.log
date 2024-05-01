@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.003997] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.005583] (-) JobUnselected: {'identifier': 'image_pubsub'}
+[0.006652] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.007490] (-) JobUnselected: {'identifier': 'robot_controller'}
+[0.007967] (-) JobUnselected: {'identifier': 'robot_controller_gui'}
+[0.008298] (aruco_controller) JobQueued: {'identifier': 'aruco_controller', 'dependencies': OrderedDict()}
+[0.008771] (aruco_controller) JobStarted: {'identifier': 'aruco_controller'}
+[0.096935] (-) TimerEvent: {}
+[0.198063] (-) TimerEvent: {}
+[0.299258] (-) TimerEvent: {}
+[0.400389] (-) TimerEvent: {}
+[0.501773] (-) TimerEvent: {}
+[0.603102] (-) TimerEvent: {}
+[0.704329] (-) TimerEvent: {}
+[0.805655] (-) TimerEvent: {}
+[0.906933] (-) TimerEvent: {}
+[1.008098] (-) TimerEvent: {}
+[1.109477] (-) TimerEvent: {}
+[1.210842] (-) TimerEvent: {}
+[1.312062] (-) TimerEvent: {}
+[1.413372] (-) TimerEvent: {}
+[1.514572] (-) TimerEvent: {}
+[1.615824] (-) TimerEvent: {}
+[1.717136] (-) TimerEvent: {}
+[1.818307] (-) TimerEvent: {}
+[1.919540] (-) TimerEvent: {}
+[2.020761] (-) TimerEvent: {}
+[2.121943] (-) TimerEvent: {}
+[2.223240] (-) TimerEvent: {}
+[2.324602] (-) TimerEvent: {}
+[2.425819] (-) TimerEvent: {}
+[2.527034] (-) TimerEvent: {}
+[2.628825] (-) TimerEvent: {}
+[2.730310] (-) TimerEvent: {}
+[2.831552] (-) TimerEvent: {}
+[2.933015] (-) TimerEvent: {}
+[3.036631] (-) TimerEvent: {}
+[3.138197] (-) TimerEvent: {}
+[3.264401] (-) TimerEvent: {}
+[3.365855] (-) TimerEvent: {}
+[3.467118] (-) TimerEvent: {}
+[3.568274] (-) TimerEvent: {}
+[3.669526] (-) TimerEvent: {}
+[3.770832] (-) TimerEvent: {}
+[3.872066] (-) TimerEvent: {}
+[3.973346] (-) TimerEvent: {}
+[4.074542] (-) TimerEvent: {}
+[4.175784] (-) TimerEvent: {}
+[4.277080] (-) TimerEvent: {}
+[4.378351] (-) TimerEvent: {}
+[4.479538] (-) TimerEvent: {}
+[4.580873] (-) TimerEvent: {}
+[4.682034] (-) TimerEvent: {}
+[4.783198] (-) TimerEvent: {}
+[4.884375] (-) TimerEvent: {}
+[4.985695] (-) TimerEvent: {}
+[5.086861] (-) TimerEvent: {}
+[5.188125] (-) TimerEvent: {}
+[5.289402] (-) TimerEvent: {}
+[5.390683] (-) TimerEvent: {}
+[5.492145] (-) TimerEvent: {}
+[5.593506] (-) TimerEvent: {}
+[5.695459] (-) TimerEvent: {}
+[5.796922] (-) TimerEvent: {}
+[5.898435] (-) TimerEvent: {}
+[5.999693] (-) TimerEvent: {}
+[6.101074] (-) TimerEvent: {}
+[6.202483] (-) TimerEvent: {}
+[6.303999] (-) TimerEvent: {}
+[6.405872] (-) TimerEvent: {}
+[6.507881] (-) TimerEvent: {}
+[6.609366] (-) TimerEvent: {}
+[6.710752] (-) TimerEvent: {}
+[6.812061] (-) TimerEvent: {}
+[6.913639] (-) TimerEvent: {}
+[7.015326] (-) TimerEvent: {}
+[7.117033] (-) TimerEvent: {}
+[7.218369] (-) TimerEvent: {}
+[7.320093] (-) TimerEvent: {}
+[7.421993] (-) TimerEvent: {}
+[7.523636] (-) TimerEvent: {}
+[7.625361] (-) TimerEvent: {}
+[7.726596] (-) TimerEvent: {}
+[7.828010] (-) TimerEvent: {}
+[7.929498] (-) TimerEvent: {}
+[8.007091] (aruco_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_controller', 'build', '--build-base', '/home/keime/ros2_ws/build/aruco_controller/build', 'install', '--record', '/home/keime/ros2_ws/build/aruco_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/keime/ros2_ws/src/aruco_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SSH_CLIENT': '192.168.11.25 39450 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/keime', 'OLDPWD': '/home/keime', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/aruco_controller', 'SSH_CONNECTION': '192.168.11.25 39450 192.168.11.35 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/aruco_controller/prefix_override:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.030596] (-) TimerEvent: {}
+[8.141790] (-) TimerEvent: {}
+[8.244774] (-) TimerEvent: {}
+[8.346081] (-) TimerEvent: {}
+[8.447354] (-) TimerEvent: {}
+[8.548727] (-) TimerEvent: {}
+[8.649972] (-) TimerEvent: {}
+[8.751431] (-) TimerEvent: {}
+[8.852764] (-) TimerEvent: {}
+[8.954010] (-) TimerEvent: {}
+[9.055219] (-) TimerEvent: {}
+[9.156535] (-) TimerEvent: {}
+[9.257647] (-) TimerEvent: {}
+[9.358830] (-) TimerEvent: {}
+[9.460152] (-) TimerEvent: {}
+[9.561451] (-) TimerEvent: {}
+[9.662633] (-) TimerEvent: {}
+[9.763826] (-) TimerEvent: {}
+[9.865122] (-) TimerEvent: {}
+[9.966325] (-) TimerEvent: {}
+[10.067517] (-) TimerEvent: {}
+[10.168761] (-) TimerEvent: {}
+[10.269976] (-) TimerEvent: {}
+[10.371245] (-) TimerEvent: {}
+[10.472505] (-) TimerEvent: {}
+[10.573788] (-) TimerEvent: {}
+[10.670051] (aruco_controller) StdoutLine: {'line': b'running egg_info\n'}
+[10.673992] (-) TimerEvent: {}
+[10.675743] (aruco_controller) StdoutLine: {'line': b'creating ../../build/aruco_controller/aruco_controller.egg-info\n'}
+[10.677686] (aruco_controller) StdoutLine: {'line': b'writing ../../build/aruco_controller/aruco_controller.egg-info/PKG-INFO\n'}
+[10.680123] (aruco_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_controller/aruco_controller.egg-info/dependency_links.txt\n'}
+[10.681992] (aruco_controller) StdoutLine: {'line': b'writing entry points to ../../build/aruco_controller/aruco_controller.egg-info/entry_points.txt\n'}
+[10.683430] (aruco_controller) StdoutLine: {'line': b'writing requirements to ../../build/aruco_controller/aruco_controller.egg-info/requires.txt\n'}
+[10.684884] (aruco_controller) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_controller/aruco_controller.egg-info/top_level.txt\n'}
+[10.686808] (aruco_controller) StdoutLine: {'line': b"writing manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'\n"}
+[10.702217] (aruco_controller) StdoutLine: {'line': b"reading manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'\n"}
+[10.711944] (aruco_controller) StdoutLine: {'line': b"writing manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'\n"}
+[10.713472] (aruco_controller) StdoutLine: {'line': b'running build\n'}
+[10.714543] (aruco_controller) StdoutLine: {'line': b'running build_py\n'}
+[10.715903] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/build/aruco_controller/build\n'}
+[10.717549] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/build/aruco_controller/build/lib\n'}
+[10.718684] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller\n'}
+[10.720270] (aruco_controller) StdoutLine: {'line': b'copying aruco_controller/__init__.py -> /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller\n'}
+[10.721434] (aruco_controller) StdoutLine: {'line': b'copying aruco_controller/controller_node.py -> /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller\n'}
+[10.722748] (aruco_controller) StdoutLine: {'line': b'copying aruco_controller/aruco_controller.py -> /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller\n'}
+[10.726736] (aruco_controller) StdoutLine: {'line': b'running install\n'}
+[10.730024] (aruco_controller) StdoutLine: {'line': b'running install_lib\n'}
+[10.737259] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller\n'}
+[10.738625] (aruco_controller) StdoutLine: {'line': b'copying /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller/__init__.py -> /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller\n'}
+[10.740146] (aruco_controller) StdoutLine: {'line': b'copying /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller/controller_node.py -> /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller\n'}
+[10.742194] (aruco_controller) StdoutLine: {'line': b'copying /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller/aruco_controller.py -> /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller\n'}
+[10.747867] (aruco_controller) StdoutLine: {'line': b'byte-compiling /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[10.750817] (aruco_controller) StdoutLine: {'line': b'byte-compiling /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller/controller_node.py to controller_node.cpython-310.pyc\n'}
+[10.753850] (aruco_controller) StdoutLine: {'line': b'byte-compiling /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller/aruco_controller.py to aruco_controller.cpython-310.pyc\n'}
+[10.768717] (aruco_controller) StdoutLine: {'line': b'running install_data\n'}
+[10.770201] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/install/aruco_controller/share/ament_index\n'}
+[10.771686] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/install/aruco_controller/share/ament_index/resource_index\n'}
+[10.773110] (aruco_controller) StdoutLine: {'line': b'creating /home/keime/ros2_ws/install/aruco_controller/share/ament_index/resource_index/packages\n'}
+[10.774268] (-) TimerEvent: {}
+[10.775150] (aruco_controller) StdoutLine: {'line': b'copying resource/aruco_controller -> /home/keime/ros2_ws/install/aruco_controller/share/ament_index/resource_index/packages\n'}
+[10.776687] (aruco_controller) StdoutLine: {'line': b'copying package.xml -> /home/keime/ros2_ws/install/aruco_controller/share/aruco_controller\n'}
+[10.778290] (aruco_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.792367] (aruco_controller) StdoutLine: {'line': b'Copying ../../build/aruco_controller/aruco_controller.egg-info to /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller-0.0.0-py3.10.egg-info\n'}
+[10.805861] (aruco_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[10.874617] (-) TimerEvent: {}
+[10.975974] (-) TimerEvent: {}
+[11.008648] (aruco_controller) StdoutLine: {'line': b'Installing controller_node script to /home/keime/ros2_ws/install/aruco_controller/lib/aruco_controller\n'}
+[11.012207] (aruco_controller) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/aruco_controller/install.log'\n"}
+[11.076359] (-) TimerEvent: {}
+[11.177812] (-) TimerEvent: {}
+[11.272080] (aruco_controller) CommandEnded: {'returncode': 0}
+[11.278930] (-) TimerEvent: {}
+[11.380959] (-) TimerEvent: {}
+[11.419333] (aruco_controller) JobEnded: {'identifier': 'aruco_controller', 'rc': 0}
+[11.425933] (-) EventReactorShutdown: {}

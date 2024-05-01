@@ -1,0 +1,40 @@
+[8.006s] Invoking command in '/home/keime/ros2_ws/src/aruco_controller': PYTHONPATH=/home/keime/ros2_ws/build/aruco_controller/prefix_override:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_controller build --build-base /home/keime/ros2_ws/build/aruco_controller/build install --record /home/keime/ros2_ws/build/aruco_controller/install.log --single-version-externally-managed install_data
+[10.662s] running egg_info
+[10.668s] creating ../../build/aruco_controller/aruco_controller.egg-info
+[10.670s] writing ../../build/aruco_controller/aruco_controller.egg-info/PKG-INFO
+[10.672s] writing dependency_links to ../../build/aruco_controller/aruco_controller.egg-info/dependency_links.txt
+[10.674s] writing entry points to ../../build/aruco_controller/aruco_controller.egg-info/entry_points.txt
+[10.676s] writing requirements to ../../build/aruco_controller/aruco_controller.egg-info/requires.txt
+[10.677s] writing top-level names to ../../build/aruco_controller/aruco_controller.egg-info/top_level.txt
+[10.679s] writing manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'
+[10.694s] reading manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'
+[10.704s] writing manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'
+[10.705s] running build
+[10.706s] running build_py
+[10.708s] creating /home/keime/ros2_ws/build/aruco_controller/build
+[10.709s] creating /home/keime/ros2_ws/build/aruco_controller/build/lib
+[10.711s] creating /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller
+[10.712s] copying aruco_controller/__init__.py -> /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller
+[10.714s] copying aruco_controller/controller_node.py -> /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller
+[10.714s] copying aruco_controller/aruco_controller.py -> /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller
+[10.719s] running install
+[10.722s] running install_lib
+[10.729s] creating /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller
+[10.730s] copying /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller/__init__.py -> /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller
+[10.732s] copying /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller/controller_node.py -> /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller
+[10.734s] copying /home/keime/ros2_ws/build/aruco_controller/build/lib/aruco_controller/aruco_controller.py -> /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller
+[10.740s] byte-compiling /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller/__init__.py to __init__.cpython-310.pyc
+[10.743s] byte-compiling /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller/controller_node.py to controller_node.cpython-310.pyc
+[10.746s] byte-compiling /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller/aruco_controller.py to aruco_controller.cpython-310.pyc
+[10.761s] running install_data
+[10.762s] creating /home/keime/ros2_ws/install/aruco_controller/share/ament_index
+[10.764s] creating /home/keime/ros2_ws/install/aruco_controller/share/ament_index/resource_index
+[10.765s] creating /home/keime/ros2_ws/install/aruco_controller/share/ament_index/resource_index/packages
+[10.767s] copying resource/aruco_controller -> /home/keime/ros2_ws/install/aruco_controller/share/ament_index/resource_index/packages
+[10.769s] copying package.xml -> /home/keime/ros2_ws/install/aruco_controller/share/aruco_controller
+[10.770s] running install_egg_info
+[10.784s] Copying ../../build/aruco_controller/aruco_controller.egg-info to /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller-0.0.0-py3.10.egg-info
+[10.798s] running install_scripts
+[11.001s] Installing controller_node script to /home/keime/ros2_ws/install/aruco_controller/lib/aruco_controller
+[11.004s] writing list of installed files to '/home/keime/ros2_ws/build/aruco_controller/install.log'
+[11.265s] Invoked command in '/home/keime/ros2_ws/src/aruco_controller' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/aruco_controller/prefix_override:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_controller build --build-base /home/keime/ros2_ws/build/aruco_controller/build install --record /home/keime/ros2_ws/build/aruco_controller/install.log --single-version-externally-managed install_data

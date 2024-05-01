@@ -22,7 +22,9 @@ class ImageSubscriber(Node):
     
     self.get_logger().info('Receiving video frame')
  
-    current_frame = self.br.imgmsg_to_cv2(data)
+    current_frame = self.br.imgmsg_to_cv2(data)   # 水平方向に反転 
+    flipped_frame = cv2.flip(current_frame, 1)
+
     cv2.imshow("camera", current_frame)
     cv2.waitKey(1)
   

@@ -1,0 +1,3 @@
+[console_scripts]
+command_publisher_gui = robot_controller_gui.command_publisher_gui:main
+

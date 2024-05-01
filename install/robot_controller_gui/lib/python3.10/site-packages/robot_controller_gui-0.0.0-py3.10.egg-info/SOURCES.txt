@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/robot_controller_gui/robot_controller_gui.egg-info/PKG-INFO
+../../build/robot_controller_gui/robot_controller_gui.egg-info/SOURCES.txt
+../../build/robot_controller_gui/robot_controller_gui.egg-info/dependency_links.txt
+../../build/robot_controller_gui/robot_controller_gui.egg-info/entry_points.txt
+../../build/robot_controller_gui/robot_controller_gui.egg-info/requires.txt
+../../build/robot_controller_gui/robot_controller_gui.egg-info/top_level.txt
+../../build/robot_controller_gui/robot_controller_gui.egg-info/zip-safe
+resource/robot_controller_gui
+robot_controller_gui/__init__.py
+robot_controller_gui/command_publisher_gui.py
+robot_controller_gui/controller.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

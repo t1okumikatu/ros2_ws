@@ -10,6 +10,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name),
+    glob('launch/*_launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,6 +24,7 @@ setup(
         'console_scripts': [
             'img_publisher = image_pubsub.image_publisher:main',
             'img_subscriber = image_pubsub.image_subscriber:main',
+            'command_publisher_gui = robot_controller_gui.command_publisher_gui:main'
         ],
     },
 )

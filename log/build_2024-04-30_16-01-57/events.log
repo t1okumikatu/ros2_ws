@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.003791] (-) JobUnselected: {'identifier': 'image_pubsub'}
+[0.005234] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005808] (-) JobUnselected: {'identifier': 'robot_controller'}
+[0.006645] (-) JobUnselected: {'identifier': 'robot_controller_gui'}
+[0.007157] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.007465] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.097907] (-) TimerEvent: {}
+[0.199274] (-) TimerEvent: {}
+[0.300437] (-) TimerEvent: {}
+[0.401609] (-) TimerEvent: {}
+[0.502842] (-) TimerEvent: {}
+[0.604212] (-) TimerEvent: {}
+[0.705429] (-) TimerEvent: {}
+[0.806629] (-) TimerEvent: {}
+[0.907912] (-) TimerEvent: {}
+[1.009183] (-) TimerEvent: {}
+[1.110524] (-) TimerEvent: {}
+[1.211788] (-) TimerEvent: {}
+[1.312988] (-) TimerEvent: {}
+[1.414178] (-) TimerEvent: {}
+[1.515498] (-) TimerEvent: {}
+[1.616933] (-) TimerEvent: {}
+[1.718137] (-) TimerEvent: {}
+[1.819446] (-) TimerEvent: {}
+[1.920637] (-) TimerEvent: {}
+[2.021876] (-) TimerEvent: {}
+[2.123326] (-) TimerEvent: {}
+[2.224632] (-) TimerEvent: {}
+[2.325843] (-) TimerEvent: {}
+[2.427108] (-) TimerEvent: {}
+[2.528310] (-) TimerEvent: {}
+[2.629480] (-) TimerEvent: {}
+[2.730837] (-) TimerEvent: {}
+[2.832330] (-) TimerEvent: {}
+[2.933625] (-) TimerEvent: {}
+[3.034873] (-) TimerEvent: {}
+[3.136112] (-) TimerEvent: {}
+[3.237332] (-) TimerEvent: {}
+[3.338586] (-) TimerEvent: {}
+[3.439937] (-) TimerEvent: {}
+[3.541189] (-) TimerEvent: {}
+[3.642401] (-) TimerEvent: {}
+[3.743645] (-) TimerEvent: {}
+[3.844853] (-) TimerEvent: {}
+[3.946148] (-) TimerEvent: {}
+[4.047320] (-) TimerEvent: {}
+[4.148598] (-) TimerEvent: {}
+[4.249779] (-) TimerEvent: {}
+[4.350984] (-) TimerEvent: {}
+[4.452283] (-) TimerEvent: {}
+[4.553494] (-) TimerEvent: {}
+[4.654715] (-) TimerEvent: {}
+[4.755979] (-) TimerEvent: {}
+[4.857171] (-) TimerEvent: {}
+[4.958394] (-) TimerEvent: {}
+[5.059754] (-) TimerEvent: {}
+[5.160929] (-) TimerEvent: {}
+[5.262147] (-) TimerEvent: {}
+[5.363453] (-) TimerEvent: {}
+[5.464689] (-) TimerEvent: {}
+[5.565943] (-) TimerEvent: {}
+[5.667407] (-) TimerEvent: {}
+[5.768807] (-) TimerEvent: {}
+[5.870090] (-) TimerEvent: {}
+[5.971471] (-) TimerEvent: {}
+[6.072885] (-) TimerEvent: {}
+[6.174207] (-) TimerEvent: {}
+[6.276313] (-) TimerEvent: {}
+[6.378200] (-) TimerEvent: {}
+[6.479531] (-) TimerEvent: {}
+[6.581175] (-) TimerEvent: {}
+[6.682541] (-) TimerEvent: {}
+[6.784849] (-) TimerEvent: {}
+[6.886743] (-) TimerEvent: {}
+[6.988629] (-) TimerEvent: {}
+[7.090476] (-) TimerEvent: {}
+[7.191925] (-) TimerEvent: {}
+[7.293175] (-) TimerEvent: {}
+[7.394449] (-) TimerEvent: {}
+[7.495902] (-) TimerEvent: {}
+[7.597491] (-) TimerEvent: {}
+[7.699133] (-) TimerEvent: {}
+[7.800695] (-) TimerEvent: {}
+[7.902194] (-) TimerEvent: {}
+[8.003795] (-) TimerEvent: {}
+[8.097665] (image_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pub', 'build', '--build-base', '/home/keime/ros2_ws/build/image_pub/build', 'install', '--record', '/home/keime/ros2_ws/build/image_pub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/keime/ros2_ws/src/image_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SSH_CLIENT': '192.168.11.17 60886 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/keime', 'OLDPWD': '/home/keime', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/image_pub', 'SSH_CONNECTION': '192.168.11.17 60886 192.168.11.35 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.107870] (-) TimerEvent: {}
+[8.209732] (-) TimerEvent: {}
+[8.310956] (-) TimerEvent: {}
+[8.412261] (-) TimerEvent: {}
+[8.513457] (-) TimerEvent: {}
+[8.614669] (-) TimerEvent: {}
+[8.715999] (-) TimerEvent: {}
+[8.817198] (-) TimerEvent: {}
+[8.918556] (-) TimerEvent: {}
+[9.019969] (-) TimerEvent: {}
+[9.121405] (-) TimerEvent: {}
+[9.222698] (-) TimerEvent: {}
+[9.323952] (-) TimerEvent: {}
+[9.425136] (-) TimerEvent: {}
+[9.526324] (-) TimerEvent: {}
+[9.627673] (-) TimerEvent: {}
+[9.728837] (-) TimerEvent: {}
+[9.830088] (-) TimerEvent: {}
+[9.931302] (-) TimerEvent: {}
+[10.032466] (-) TimerEvent: {}
+[10.133686] (-) TimerEvent: {}
+[10.234896] (-) TimerEvent: {}
+[10.336168] (-) TimerEvent: {}
+[10.437348] (-) TimerEvent: {}
+[10.538634] (-) TimerEvent: {}
+[10.639958] (-) TimerEvent: {}
+[10.704082] (image_pub) StdoutLine: {'line': b'running egg_info\n'}
+[10.710306] (image_pub) StdoutLine: {'line': b'writing ../../build/image_pub/image_pub.egg-info/PKG-INFO\n'}
+[10.714191] (image_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt\n'}
+[10.716604] (image_pub) StdoutLine: {'line': b'writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt\n'}
+[10.718371] (image_pub) StdoutLine: {'line': b'writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt\n'}
+[10.720089] (image_pub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt\n'}
+[10.738061] (image_pub) StdoutLine: {'line': b"reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[10.740138] (-) TimerEvent: {}
+[10.751004] (image_pub) StdoutLine: {'line': b"writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[10.752689] (image_pub) StdoutLine: {'line': b'running build\n'}
+[10.754100] (image_pub) StdoutLine: {'line': b'running build_py\n'}
+[10.759446] (image_pub) StdoutLine: {'line': b'running install\n'}
+[10.762543] (image_pub) StdoutLine: {'line': b'running install_lib\n'}
+[10.779617] (image_pub) StdoutLine: {'line': b'running install_data\n'}
+[10.784042] (image_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.801180] (image_pub) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.805150] (image_pub) StdoutLine: {'line': b'Copying ../../build/image_pub/image_pub.egg-info to /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info\n'}
+[10.819593] (image_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[10.840419] (-) TimerEvent: {}
+[10.941673] (-) TimerEvent: {}
+[11.018900] (image_pub) StdoutLine: {'line': b'Installing img_publisher script to /home/keime/ros2_ws/install/image_pub/lib/image_pub\n'}
+[11.024344] (image_pub) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/image_pub/install.log'\n"}
+[11.042185] (-) TimerEvent: {}
+[11.143817] (-) TimerEvent: {}
+[11.245199] (-) TimerEvent: {}
+[11.282314] (image_pub) CommandEnded: {'returncode': 0}
+[11.345435] (-) TimerEvent: {}
+[11.433647] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[11.439839] (-) EventReactorShutdown: {}

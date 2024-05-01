@@ -1,5 +1,5 @@
 from setuptools import find_packages, setup
-
+import os
 package_name = 'image_pubsub'
 
 setup(
@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name),
-    glob('launch/*_launch.py')),
+        glob('launch/my_launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

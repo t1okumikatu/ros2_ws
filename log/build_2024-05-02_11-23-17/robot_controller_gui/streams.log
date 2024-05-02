@@ -1,0 +1,24 @@
+[1.486s] Invoking command in '/home/keime/ros2_ws/src/robot_controller_gui': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller_gui/prefix_override:/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller_gui build --build-base /home/keime/ros2_ws/build/robot_controller_gui/build install --record /home/keime/ros2_ws/build/robot_controller_gui/install.log --single-version-externally-managed install_data
+[2.035s] running egg_info
+[2.037s] writing ../../build/robot_controller_gui/robot_controller_gui.egg-info/PKG-INFO
+[2.040s] writing dependency_links to ../../build/robot_controller_gui/robot_controller_gui.egg-info/dependency_links.txt
+[2.043s] writing entry points to ../../build/robot_controller_gui/robot_controller_gui.egg-info/entry_points.txt
+[2.046s] writing requirements to ../../build/robot_controller_gui/robot_controller_gui.egg-info/requires.txt
+[2.048s] writing top-level names to ../../build/robot_controller_gui/robot_controller_gui.egg-info/top_level.txt
+[2.055s] reading manifest file '../../build/robot_controller_gui/robot_controller_gui.egg-info/SOURCES.txt'
+[2.056s] writing manifest file '../../build/robot_controller_gui/robot_controller_gui.egg-info/SOURCES.txt'
+[2.059s] running build
+[2.059s] running build_py
+[2.060s] copying robot_controller_gui/command_publisher_gui.py -> /home/keime/ros2_ws/build/robot_controller_gui/build/lib/robot_controller_gui
+[2.060s] running install
+[2.061s] running install_lib
+[2.063s] copying /home/keime/ros2_ws/build/robot_controller_gui/build/lib/robot_controller_gui/command_publisher_gui.py -> /home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages/robot_controller_gui
+[2.065s] byte-compiling /home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages/robot_controller_gui/command_publisher_gui.py to command_publisher_gui.cpython-310.pyc
+[2.068s] running install_data
+[2.068s] running install_egg_info
+[2.071s] removing '/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages/robot_controller_gui-0.0.0-py3.10.egg-info' (and everything under it)
+[2.072s] Copying ../../build/robot_controller_gui/robot_controller_gui.egg-info to /home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages/robot_controller_gui-0.0.0-py3.10.egg-info
+[2.074s] running install_scripts
+[2.118s] Installing command_publisher_gui script to /home/keime/ros2_ws/install/robot_controller_gui/lib/robot_controller_gui
+[2.121s] writing list of installed files to '/home/keime/ros2_ws/build/robot_controller_gui/install.log'
+[2.172s] Invoked command in '/home/keime/ros2_ws/src/robot_controller_gui' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller_gui/prefix_override:/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller_gui build --build-base /home/keime/ros2_ws/build/robot_controller_gui/build install --record /home/keime/ros2_ws/build/robot_controller_gui/install.log --single-version-externally-managed install_data

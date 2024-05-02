@@ -1,10 +1,7 @@
 from setuptools import find_packages, setup
-<<<<<<< HEAD
 from glob import glob
 import os 
-=======
-import os
->>>>>>> 535e23d86d06c52a8eff0f96d95afbb6a935038f
+
 package_name = 'image_pubsub'
 
 setup(
@@ -15,12 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-<<<<<<< HEAD
         (os.path.join('share', package_name), glob('launch/*.py'))
-=======
-        (os.path.join('share', package_name),
-        glob('launch/my_launch.py')),
->>>>>>> 535e23d86d06c52a8eff0f96d95afbb6a935038f
     ],
     install_requires=['setuptools'],
     zip_safe=True,

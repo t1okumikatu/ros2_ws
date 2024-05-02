@@ -1,4 +1,3 @@
-#ros
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
@@ -52,4 +51,5 @@ def main(args=None):
 if __name__ == '__main__':
     main()
 
-    
+
+

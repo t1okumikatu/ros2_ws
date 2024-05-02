@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-def main():
-    print('Hi from robot_controller_gui.')
-
-
-if __name__ == '__main__':
-    main()
-=======
-#ros
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
@@ -60,5 +51,5 @@ def main(args=None):
 if __name__ == '__main__':
     main()
 
-    
->>>>>>> 6fd6f515ef382b60d98de2f125d779f8e82fe435
+
+

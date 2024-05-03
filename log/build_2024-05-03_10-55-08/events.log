@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.004408] (-) JobUnselected: {'identifier': 'aruco_controller'}
+[0.006343] (-) JobUnselected: {'identifier': 'image_pubsub'}
+[0.007658] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.008233] (-) JobUnselected: {'identifier': 'robot_controller'}
+[0.009012] (-) JobUnselected: {'identifier': 'robot_controller_gui'}
+[0.009499] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.009851] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.098057] (-) TimerEvent: {}
+[0.215566] (-) TimerEvent: {}
+[0.318851] (-) TimerEvent: {}
+[0.420651] (-) TimerEvent: {}
+[0.522225] (-) TimerEvent: {}
+[0.623443] (-) TimerEvent: {}
+[0.724965] (-) TimerEvent: {}
+[0.826330] (-) TimerEvent: {}
+[0.927574] (-) TimerEvent: {}
+[1.028986] (-) TimerEvent: {}
+[1.130364] (-) TimerEvent: {}
+[1.232132] (-) TimerEvent: {}
+[1.333857] (-) TimerEvent: {}
+[1.435149] (-) TimerEvent: {}
+[1.536399] (-) TimerEvent: {}
+[1.637879] (-) TimerEvent: {}
+[1.739138] (-) TimerEvent: {}
+[1.840361] (-) TimerEvent: {}
+[1.941751] (-) TimerEvent: {}
+[2.043014] (-) TimerEvent: {}
+[2.144331] (-) TimerEvent: {}
+[2.245719] (-) TimerEvent: {}
+[2.346982] (-) TimerEvent: {}
+[2.448270] (-) TimerEvent: {}
+[2.549568] (-) TimerEvent: {}
+[2.650726] (-) TimerEvent: {}
+[2.751896] (-) TimerEvent: {}
+[2.853200] (-) TimerEvent: {}
+[2.954444] (-) TimerEvent: {}
+[3.055691] (-) TimerEvent: {}
+[3.157009] (-) TimerEvent: {}
+[3.258587] (-) TimerEvent: {}
+[3.360021] (-) TimerEvent: {}
+[3.461340] (-) TimerEvent: {}
+[3.562608] (-) TimerEvent: {}
+[3.664219] (-) TimerEvent: {}
+[3.766595] (-) TimerEvent: {}
+[3.867888] (-) TimerEvent: {}
+[3.969251] (-) TimerEvent: {}
+[4.070508] (-) TimerEvent: {}
+[4.171704] (-) TimerEvent: {}
+[4.272912] (-) TimerEvent: {}
+[4.374191] (-) TimerEvent: {}
+[4.475614] (-) TimerEvent: {}
+[4.576978] (-) TimerEvent: {}
+[4.678314] (-) TimerEvent: {}
+[4.779533] (-) TimerEvent: {}
+[4.880704] (-) TimerEvent: {}
+[4.981908] (-) TimerEvent: {}
+[5.083177] (-) TimerEvent: {}
+[5.184460] (-) TimerEvent: {}
+[5.285825] (-) TimerEvent: {}
+[5.387071] (-) TimerEvent: {}
+[5.488283] (-) TimerEvent: {}
+[5.589660] (-) TimerEvent: {}
+[5.690869] (-) TimerEvent: {}
+[5.792088] (-) TimerEvent: {}
+[5.893500] (-) TimerEvent: {}
+[5.994756] (-) TimerEvent: {}
+[6.096022] (-) TimerEvent: {}
+[6.197442] (-) TimerEvent: {}
+[6.298705] (-) TimerEvent: {}
+[6.399939] (-) TimerEvent: {}
+[6.501198] (-) TimerEvent: {}
+[6.602452] (-) TimerEvent: {}
+[6.703702] (-) TimerEvent: {}
+[6.805235] (-) TimerEvent: {}
+[6.906941] (-) TimerEvent: {}
+[7.008704] (-) TimerEvent: {}
+[7.110431] (-) TimerEvent: {}
+[7.211697] (-) TimerEvent: {}
+[7.313070] (-) TimerEvent: {}
+[7.414421] (-) TimerEvent: {}
+[7.515925] (-) TimerEvent: {}
+[7.617425] (-) TimerEvent: {}
+[7.718902] (-) TimerEvent: {}
+[7.820381] (-) TimerEvent: {}
+[7.921934] (-) TimerEvent: {}
+[8.023311] (-) TimerEvent: {}
+[8.124623] (-) TimerEvent: {}
+[8.226287] (-) TimerEvent: {}
+[8.327543] (-) TimerEvent: {}
+[8.428882] (-) TimerEvent: {}
+[8.530405] (-) TimerEvent: {}
+[8.632192] (-) TimerEvent: {}
+[8.733800] (-) TimerEvent: {}
+[8.835318] (-) TimerEvent: {}
+[8.936963] (-) TimerEvent: {}
+[9.038413] (-) TimerEvent: {}
+[9.139819] (-) TimerEvent: {}
+[9.182879] (image_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pub', 'build', '--build-base', '/home/keime/ros2_ws/build/image_pub/build', 'install', '--record', '/home/keime/ros2_ws/build/image_pub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/keime/ros2_ws/src/image_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SSH_CLIENT': '192.168.11.25 34834 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/keime', 'OLDPWD': '/home/keime', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/keime/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/keime/ros2_ws/install/robot_controller_gui:/home/keime/ros2_ws/install/robot_controller:/home/keime/ros2_ws/install/py_pubsub:/home/keime/ros2_ws/install/image_pubsub:/home/keime/ros2_ws/install/image_pub:/home/keime/ros2_ws/install/aruco_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/image_pub', 'SSH_CONNECTION': '192.168.11.25 34834 192.168.11.35 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[9.240157] (-) TimerEvent: {}
+[9.341772] (-) TimerEvent: {}
+[9.443075] (-) TimerEvent: {}
+[9.544373] (-) TimerEvent: {}
+[9.645710] (-) TimerEvent: {}
+[9.746980] (-) TimerEvent: {}
+[9.848152] (-) TimerEvent: {}
+[9.949368] (-) TimerEvent: {}
+[10.050528] (-) TimerEvent: {}
+[10.151680] (-) TimerEvent: {}
+[10.252906] (-) TimerEvent: {}
+[10.354072] (-) TimerEvent: {}
+[10.455257] (-) TimerEvent: {}
+[10.556462] (-) TimerEvent: {}
+[10.657706] (-) TimerEvent: {}
+[10.758978] (-) TimerEvent: {}
+[10.860219] (-) TimerEvent: {}
+[10.961607] (-) TimerEvent: {}
+[11.063067] (-) TimerEvent: {}
+[11.164297] (-) TimerEvent: {}
+[11.265580] (-) TimerEvent: {}
+[11.366765] (-) TimerEvent: {}
+[11.467986] (-) TimerEvent: {}
+[11.569359] (-) TimerEvent: {}
+[11.670571] (-) TimerEvent: {}
+[11.771841] (-) TimerEvent: {}
+[11.873236] (-) TimerEvent: {}
+[11.974449] (-) TimerEvent: {}
+[11.998950] (image_pub) StdoutLine: {'line': b'running egg_info\n'}
+[12.005386] (image_pub) StdoutLine: {'line': b'writing ../../build/image_pub/image_pub.egg-info/PKG-INFO\n'}
+[12.009525] (image_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt\n'}
+[12.011730] (image_pub) StdoutLine: {'line': b'writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt\n'}
+[12.013746] (image_pub) StdoutLine: {'line': b'writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt\n'}
+[12.015210] (image_pub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt\n'}
+[12.041726] (image_pub) StdoutLine: {'line': b"reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[12.053691] (image_pub) StdoutLine: {'line': b"writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[12.055459] (image_pub) StdoutLine: {'line': b'running build\n'}
+[12.057426] (image_pub) StdoutLine: {'line': b'running build_py\n'}
+[12.063461] (image_pub) StdoutLine: {'line': b'running install\n'}
+[12.066610] (image_pub) StdoutLine: {'line': b'running install_lib\n'}
+[12.074725] (-) TimerEvent: {}
+[12.084991] (image_pub) StdoutLine: {'line': b'running install_data\n'}
+[12.089009] (image_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.109121] (image_pub) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.113087] (image_pub) StdoutLine: {'line': b'Copying ../../build/image_pub/image_pub.egg-info to /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info\n'}
+[12.127978] (image_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[12.174959] (-) TimerEvent: {}
+[12.276240] (-) TimerEvent: {}
+[12.342530] (image_pub) StdoutLine: {'line': b'Installing action script to /home/keime/ros2_ws/install/image_pub/lib/image_pub\n'}
+[12.346550] (image_pub) StdoutLine: {'line': b'Installing img_publisher script to /home/keime/ros2_ws/install/image_pub/lib/image_pub\n'}
+[12.350706] (image_pub) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/image_pub/install.log'\n"}
+[12.376532] (-) TimerEvent: {}
+[12.478064] (-) TimerEvent: {}
+[12.579585] (-) TimerEvent: {}
+[12.619904] (image_pub) CommandEnded: {'returncode': 0}
+[12.679797] (-) TimerEvent: {}
+[12.778196] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[12.784561] (-) TimerEvent: {}
+[12.785390] (-) EventReactorShutdown: {}

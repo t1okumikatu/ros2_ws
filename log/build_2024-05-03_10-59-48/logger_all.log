@@ -1,0 +1,729 @@
+[1.455s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.456s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb12d3670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb121c2b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb121c2b0>>)
+[3.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.454s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/keime/ros2_ws'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.625s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extensions ['ignore', 'ignore_ament_install']
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'ignore'
+[3.627s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'ignore_ament_install'
+[3.627s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extensions ['colcon_pkg']
+[3.628s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'colcon_pkg'
+[3.628s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extensions ['colcon_meta']
+[3.629s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'colcon_meta'
+[3.629s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extensions ['ros']
+[3.630s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'ros'
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extensions ['cmake', 'python']
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'cmake'
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'python'
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extensions ['python_setup_py']
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver) by extension 'python_setup_py'
+[3.634s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extensions ['ignore', 'ignore_ament_install']
+[3.635s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'ignore'
+[3.635s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'ignore_ament_install'
+[3.636s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extensions ['colcon_pkg']
+[3.636s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'colcon_pkg'
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extensions ['colcon_meta']
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'colcon_meta'
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extensions ['ros']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'ros'
+[3.639s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extensions ['cmake', 'python']
+[3.640s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'cmake'
+[3.640s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'python'
+[3.641s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extensions ['python_setup_py']
+[3.641s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release) by extension 'python_setup_py'
+[3.643s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extensions ['ignore', 'ignore_ament_install']
+[3.644s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'ignore'
+[3.644s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'ignore_ament_install'
+[3.645s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extensions ['colcon_pkg']
+[3.645s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'colcon_pkg'
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extensions ['colcon_meta']
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'colcon_meta'
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extensions ['ros']
+[3.647s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'ros'
+[3.648s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extensions ['cmake', 'python']
+[3.649s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'cmake'
+[3.649s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'python'
+[3.650s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extensions ['python_setup_py']
+[3.650s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin) by extension 'python_setup_py'
+[3.652s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extensions ['ignore', 'ignore_ament_install']
+[3.653s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'ignore'
+[3.653s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'ignore_ament_install'
+[3.654s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extensions ['colcon_pkg']
+[3.654s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'colcon_pkg'
+[3.655s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extensions ['colcon_meta']
+[3.655s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'colcon_meta'
+[3.656s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extensions ['ros']
+[3.656s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'ros'
+[3.657s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extensions ['cmake', 'python']
+[3.658s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'cmake'
+[3.658s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'python'
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extensions ['python_setup_py']
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17+) by extension 'python_setup_py'
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extensions ['ignore', 'ignore_ament_install']
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'ignore'
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'ignore_ament_install'
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extensions ['colcon_pkg']
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'colcon_pkg'
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extensions ['colcon_meta']
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'colcon_meta'
+[3.665s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extensions ['ros']
+[3.665s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'ros'
+[3.666s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extensions ['cmake', 'python']
+[3.667s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'cmake'
+[3.667s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'python'
+[3.668s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extensions ['python_setup_py']
+[3.668s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7+) by extension 'python_setup_py'
+[3.670s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extensions ['ignore', 'ignore_ament_install']
+[3.671s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'ignore'
+[3.671s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'ignore_ament_install'
+[3.672s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extensions ['colcon_pkg']
+[3.672s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'colcon_pkg'
+[3.673s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extensions ['colcon_meta']
+[3.673s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'colcon_meta'
+[3.674s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extensions ['ros']
+[3.674s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'ros'
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extensions ['cmake', 'python']
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'cmake'
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'python'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extensions ['python_setup_py']
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.17-v7l+) by extension 'python_setup_py'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extensions ['ignore', 'ignore_ament_install']
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'ignore'
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'ignore_ament_install'
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extensions ['colcon_pkg']
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'colcon_pkg'
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extensions ['colcon_meta']
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'colcon_meta'
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extensions ['ros']
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'ros'
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extensions ['cmake', 'python']
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'cmake'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'python'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extensions ['python_setup_py']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52+) by extension 'python_setup_py'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extensions ['ignore', 'ignore_ament_install']
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'ignore'
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'ignore_ament_install'
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extensions ['colcon_pkg']
+[3.691s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'colcon_pkg'
+[3.691s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extensions ['colcon_meta']
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'colcon_meta'
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extensions ['ros']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'ros'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extensions ['cmake', 'python']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'cmake'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'python'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extensions ['python_setup_py']
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7+) by extension 'python_setup_py'
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extensions ['ignore', 'ignore_ament_install']
+[3.698s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'ignore'
+[3.699s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'ignore_ament_install'
+[3.699s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extensions ['colcon_pkg']
+[3.700s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'colcon_pkg'
+[3.700s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extensions ['colcon_meta']
+[3.701s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'colcon_meta'
+[3.701s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extensions ['ros']
+[3.702s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'ros'
+[3.703s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extensions ['cmake', 'python']
+[3.703s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'cmake'
+[3.704s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'python'
+[3.704s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extensions ['python_setup_py']
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.52-v7l+) by extension 'python_setup_py'
+[3.706s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extensions ['ignore', 'ignore_ament_install']
+[3.707s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'ignore'
+[3.708s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'ignore_ament_install'
+[3.708s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extensions ['colcon_pkg']
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'colcon_pkg'
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extensions ['colcon_meta']
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'colcon_meta'
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extensions ['ros']
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'ros'
+[3.712s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extensions ['cmake', 'python']
+[3.712s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'cmake'
+[3.713s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'python'
+[3.713s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extensions ['python_setup_py']
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60+) by extension 'python_setup_py'
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extensions ['ignore', 'ignore_ament_install']
+[3.716s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'ignore'
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'ignore_ament_install'
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extensions ['colcon_pkg']
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'colcon_pkg'
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extensions ['colcon_meta']
+[3.719s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'colcon_meta'
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extensions ['ros']
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'ros'
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extensions ['cmake', 'python']
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'cmake'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'python'
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extensions ['python_setup_py']
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7+) by extension 'python_setup_py'
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extensions ['ignore', 'ignore_ament_install']
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'ignore'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'ignore_ament_install'
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extensions ['colcon_pkg']
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'colcon_pkg'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extensions ['colcon_meta']
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'colcon_meta'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extensions ['ros']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'ros'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extensions ['cmake', 'python']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'cmake'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'python'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extensions ['python_setup_py']
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.60-v7l+) by extension 'python_setup_py'
+[3.733s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extensions ['ignore', 'ignore_ament_install']
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'ignore'
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'ignore_ament_install'
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extensions ['colcon_pkg']
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'colcon_pkg'
+[3.737s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extensions ['colcon_meta']
+[3.737s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'colcon_meta'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extensions ['ros']
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'ros'
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extensions ['cmake', 'python']
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'cmake'
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'python'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extensions ['python_setup_py']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63+) by extension 'python_setup_py'
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extensions ['ignore', 'ignore_ament_install']
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'ignore'
+[3.744s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'ignore_ament_install'
+[3.745s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extensions ['colcon_pkg']
+[3.745s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'colcon_pkg'
+[3.746s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extensions ['colcon_meta']
+[3.746s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'colcon_meta'
+[3.747s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extensions ['ros']
+[3.747s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'ros'
+[3.748s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extensions ['cmake', 'python']
+[3.749s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'cmake'
+[3.749s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'python'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extensions ['python_setup_py']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7+) by extension 'python_setup_py'
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extensions ['ignore', 'ignore_ament_install']
+[3.752s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'ignore'
+[3.753s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'ignore_ament_install'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extensions ['colcon_pkg']
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'colcon_pkg'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extensions ['colcon_meta']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'colcon_meta'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extensions ['ros']
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'ros'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extensions ['cmake', 'python']
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'cmake'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'python'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extensions ['python_setup_py']
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v7l+) by extension 'python_setup_py'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extensions ['ignore', 'ignore_ament_install']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'ignore'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'ignore_ament_install'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extensions ['colcon_pkg']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'colcon_pkg'
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extensions ['colcon_meta']
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'colcon_meta'
+[3.765s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extensions ['ros']
+[3.765s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'ros'
+[3.766s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extensions ['cmake', 'python']
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'cmake'
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'python'
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extensions ['python_setup_py']
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/Release/bin/5.10.63-v8+) by extension 'python_setup_py'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extensions ['ignore', 'ignore_ament_install']
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'ignore'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'ignore_ament_install'
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extensions ['colcon_pkg']
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'colcon_pkg'
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extensions ['colcon_meta']
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'colcon_meta'
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extensions ['ros']
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'ros'
+[3.775s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extensions ['cmake', 'python']
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'cmake'
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'python'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extensions ['python_setup_py']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/focus) by extension 'python_setup_py'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extensions ['ignore', 'ignore_ament_install']
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'ignore'
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'ignore_ament_install'
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extensions ['colcon_pkg']
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'colcon_pkg'
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extensions ['colcon_meta']
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'colcon_meta'
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extensions ['ros']
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'ros'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extensions ['cmake', 'python']
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'cmake'
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'python'
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extensions ['python_setup_py']
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/patchs) by extension 'python_setup_py'
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extensions ['ignore', 'ignore_ament_install']
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'ignore'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'ignore_ament_install'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extensions ['colcon_pkg']
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'colcon_pkg'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extensions ['colcon_meta']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'colcon_meta'
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extensions ['ros']
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'ros'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extensions ['cmake', 'python']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'cmake'
+[3.794s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'python'
+[3.794s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extensions ['python_setup_py']
+[3.794s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/src) by extension 'python_setup_py'
+[3.796s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extensions ['ignore', 'ignore_ament_install']
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'ignore'
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'ignore_ament_install'
+[3.798s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extensions ['colcon_pkg']
+[3.798s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'colcon_pkg'
+[3.799s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extensions ['colcon_meta']
+[3.799s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'colcon_meta'
+[3.800s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extensions ['ros']
+[3.800s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'ros'
+[3.801s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extensions ['cmake', 'python']
+[3.802s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'cmake'
+[3.802s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'python'
+[3.803s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extensions ['python_setup_py']
+[3.803s] Level 1:colcon.colcon_core.package_identification:_identify(Arducam-Pivariety-V4L2-Driver/tools) by extension 'python_setup_py'
+[3.804s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extensions ['ignore', 'ignore_ament_install']
+[3.805s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'ignore'
+[3.806s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'ignore_ament_install'
+[3.806s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extensions ['colcon_pkg']
+[3.807s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'colcon_pkg'
+[3.807s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extensions ['colcon_meta']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'colcon_meta'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extensions ['ros']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'ros'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extensions ['cmake', 'python']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'cmake'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'python'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extensions ['python_setup_py']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(apt) by extension 'python_setup_py'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extensions ['ignore', 'ignore_ament_install']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'ignore'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'ignore_ament_install'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extensions ['colcon_pkg']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'colcon_pkg'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extensions ['colcon_meta']
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'colcon_meta'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extensions ['ros']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'ros'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extensions ['cmake', 'python']
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'cmake'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'python'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extensions ['python_setup_py']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(apt/auth.conf.d) by extension 'python_setup_py'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extensions ['ignore', 'ignore_ament_install']
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'ignore'
+[3.822s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'ignore_ament_install'
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extensions ['colcon_pkg']
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'colcon_pkg'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extensions ['colcon_meta']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'colcon_meta'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extensions ['ros']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'ros'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extensions ['cmake', 'python']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'cmake'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'python'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extensions ['python_setup_py']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(apt/keyrings) by extension 'python_setup_py'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.834s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.839s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extensions ['ignore', 'ignore_ament_install']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'ignore'
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'ignore_ament_install'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extensions ['colcon_pkg']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'colcon_pkg'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extensions ['colcon_meta']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'colcon_meta'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extensions ['ros']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'ros'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extensions ['cmake', 'python']
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'cmake'
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'python'
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extensions ['python_setup_py']
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(pythonテスト) by extension 'python_setup_py'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'ignore'
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'ignore_ament_install'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['colcon_pkg']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'colcon_pkg'
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['colcon_meta']
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'colcon_meta'
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['ros']
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'ros'
+[3.891s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_controller' with type 'ros.ament_python' and name 'aruco_controller'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['ignore', 'ignore_ament_install']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'ignore'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'ignore_ament_install'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['colcon_pkg']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'colcon_pkg'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['colcon_meta']
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'colcon_meta'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['ros']
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'ros'
+[3.905s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pub' with type 'ros.ament_python' and name 'image_pub'
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extension 'ignore'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extension 'ignore_ament_install'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extensions ['colcon_pkg']
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extension 'colcon_pkg'
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extensions ['colcon_meta']
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extension 'colcon_meta'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extensions ['ros']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pubsub) by extension 'ros'
+[3.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pubsub' with type 'ros.ament_python' and name 'image_pubsub'
+[3.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[3.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[3.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[3.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[3.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[3.930s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[3.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore'
+[3.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore_ament_install'
+[3.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_pkg']
+[3.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_pkg'
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_meta']
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_meta'
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ros']
+[3.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ros'
+[3.942s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller' with type 'ros.ament_python' and name 'robot_controller'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extensions ['ignore', 'ignore_ament_install']
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extension 'ignore'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extension 'ignore_ament_install'
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extensions ['colcon_pkg']
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extension 'colcon_pkg'
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extensions ['colcon_meta']
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extension 'colcon_meta'
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extensions ['ros']
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller_gui) by extension 'ros'
+[3.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller_gui' with type 'ros.ament_python' and name 'robot_controller_gui'
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extensions ['ignore', 'ignore_ament_install']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'ignore'
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'ignore_ament_install'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extensions ['colcon_pkg']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'colcon_pkg'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extensions ['colcon_meta']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'colcon_meta'
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extensions ['ros']
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'ros'
+[3.963s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extensions ['cmake', 'python']
+[3.963s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'cmake'
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'python'
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extensions ['python_setup_py']
+[3.965s] Level 1:colcon.colcon_core.package_identification:_identify(マーカー) by extension 'python_setup_py'
+[3.965s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/keime/ros2_ws/install
+[4.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[4.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.648s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_args' from command line to 'None'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_target' from command line to 'None'
+[4.649s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.650s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[4.650s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_clean_first' from command line to 'False'
+[4.650s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_force_configure' from command line to 'False'
+[4.650s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'ament_cmake_args' from command line to 'None'
+[4.651s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[4.651s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.651s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/keime/ros2_ws/build/aruco_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/keime/ros2_ws/install/aruco_controller', 'merge_install': False, 'path': '/home/keime/ros2_ws/src/aruco_controller', 'symlink_install': False, 'test_result_base': None}
+[4.655s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_args' from command line to 'None'
+[4.656s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_target' from command line to 'None'
+[4.656s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_clean_first' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_force_configure' from command line to 'False'
+[4.657s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'ament_cmake_args' from command line to 'None'
+[4.658s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.658s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.659s] DEBUG:colcon.colcon_core.verb:Building package 'image_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/keime/ros2_ws/build/image_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/keime/ros2_ws/install/image_pub', 'merge_install': False, 'path': '/home/keime/ros2_ws/src/image_pub', 'symlink_install': False, 'test_result_base': None}
+[4.663s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'cmake_args' from command line to 'None'
+[4.663s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'cmake_target' from command line to 'None'
+[4.663s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[4.664s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[4.665s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.665s] Level 5:colcon.colcon_core.verb:set package 'image_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.665s] DEBUG:colcon.colcon_core.verb:Building package 'image_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/keime/ros2_ws/build/image_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/keime/ros2_ws/install/image_pubsub', 'merge_install': False, 'path': '/home/keime/ros2_ws/src/image_pubsub', 'symlink_install': False, 'test_result_base': None}
+[4.670s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[4.670s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[4.670s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[4.671s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[4.672s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.672s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.672s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/keime/ros2_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/keime/ros2_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/keime/ros2_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[4.676s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[4.677s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[4.677s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.678s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[4.678s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[4.678s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[4.678s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[4.679s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[4.679s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.679s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/keime/ros2_ws/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/keime/ros2_ws/install/robot_controller', 'merge_install': False, 'path': '/home/keime/ros2_ws/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[4.683s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'cmake_args' from command line to 'None'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'cmake_target' from command line to 'None'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.684s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[4.685s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'cmake_clean_first' from command line to 'False'
+[4.685s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'cmake_force_configure' from command line to 'False'
+[4.685s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'ament_cmake_args' from command line to 'None'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[4.686s] Level 5:colcon.colcon_core.verb:set package 'robot_controller_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.686s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/keime/ros2_ws/build/robot_controller_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/keime/ros2_ws/install/robot_controller_gui', 'merge_install': False, 'path': '/home/keime/ros2_ws/src/robot_controller_gui', 'symlink_install': False, 'test_result_base': None}
+[4.688s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.698s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/keime/ros2_ws/src/aruco_controller' with build type 'ament_python'
+[4.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_controller', 'ament_prefix_path')
+[4.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/hook/ament_prefix_path.ps1'
+[4.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/hook/ament_prefix_path.dsv'
+[4.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/hook/ament_prefix_path.sh'
+[4.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.899s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/keime/ros2_ws/src/image_pub' with build type 'ament_python'
+[4.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pub', 'ament_prefix_path')
+[4.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pub/share/image_pub/hook/ament_prefix_path.ps1'
+[4.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/image_pub/share/image_pub/hook/ament_prefix_path.dsv'
+[4.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pub/share/image_pub/hook/ament_prefix_path.sh'
+[4.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.962s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/keime/ros2_ws/src/image_pubsub' with build type 'ament_python'
+[4.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pubsub', 'ament_prefix_path')
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/hook/ament_prefix_path.ps1'
+[4.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/hook/ament_prefix_path.dsv'
+[4.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/hook/ament_prefix_path.sh'
+[4.985s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.986s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.027s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/keime/ros2_ws/src/py_pubsub' with build type 'ament_python'
+[5.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[5.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[5.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[5.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.165s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/keime/ros2_ws/src/aruco_controller'
+[8.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.185s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/keime/ros2_ws/src/image_pub'
+[11.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.204s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/keime/ros2_ws/src/image_pubsub'
+[14.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.217s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/keime/ros2_ws/src/py_pubsub'
+[17.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/keime/ros2_ws/src/py_pubsub': PYTHONPATH=/home/keime/ros2_ws/build/py_pubsub/prefix_override:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/keime/ros2_ws/build/py_pubsub/build install --record /home/keime/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[26.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/keime/ros2_ws/src/aruco_controller': PYTHONPATH=/home/keime/ros2_ws/build/aruco_controller/prefix_override:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_controller build --build-base /home/keime/ros2_ws/build/aruco_controller/build install --record /home/keime/ros2_ws/build/aruco_controller/install.log --single-version-externally-managed install_data
+[26.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/keime/ros2_ws/src/image_pub': PYTHONPATH=/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/keime/ros2_ws/build/image_pub/build install --record /home/keime/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[26.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/keime/ros2_ws/src/image_pubsub': PYTHONPATH=/home/keime/ros2_ws/build/image_pubsub/prefix_override:/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pubsub build --build-base /home/keime/ros2_ws/build/image_pubsub/build install --record /home/keime/ros2_ws/build/image_pubsub/install.log --single-version-externally-managed install_data
+[31.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/keime/ros2_ws/src/image_pubsub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/image_pubsub/prefix_override:/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pubsub build --build-base /home/keime/ros2_ws/build/image_pubsub/build install --record /home/keime/ros2_ws/build/image_pubsub/install.log --single-version-externally-managed install_data
+[32.143s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub' for CMake module files
+[32.154s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub' for CMake config files
+[32.187s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub/lib'
+[32.191s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub/bin'
+[32.192s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub/lib/pkgconfig/image_pubsub.pc'
+[32.196s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages'
+[32.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pubsub', 'pythonpath')
+[32.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/hook/pythonpath.ps1'
+[32.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/hook/pythonpath.dsv'
+[32.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/hook/pythonpath.sh'
+[32.226s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pubsub/bin'
+[32.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_pubsub)
+[32.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/package.ps1'
+[32.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/package.dsv'
+[32.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/package.sh'
+[32.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/package.bash'
+[32.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/package.zsh'
+[32.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/keime/ros2_ws/install/image_pubsub/share/colcon-core/packages/image_pubsub)
+[32.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/keime/ros2_ws/src/robot_controller' with build type 'ament_python'
+[32.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'ament_prefix_path')
+[32.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.ps1'
+[32.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.dsv'
+[32.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/hook/ament_prefix_path.sh'
+[32.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.436s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller' for CMake module files
+[32.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/keime/ros2_ws/src/aruco_controller' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/aruco_controller/prefix_override:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_controller build --build-base /home/keime/ros2_ws/build/aruco_controller/build install --record /home/keime/ros2_ws/build/aruco_controller/install.log --single-version-externally-managed install_data
+[32.447s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller' for CMake config files
+[32.460s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller/lib'
+[32.461s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller/bin'
+[32.463s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller/lib/pkgconfig/aruco_controller.pc'
+[32.465s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages'
+[32.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_controller', 'pythonpath')
+[32.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/hook/pythonpath.ps1'
+[32.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/hook/pythonpath.dsv'
+[32.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/hook/pythonpath.sh'
+[32.484s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/aruco_controller/bin'
+[32.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_controller)
+[32.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/package.ps1'
+[32.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/package.dsv'
+[32.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/package.sh'
+[32.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/package.bash'
+[32.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/aruco_controller/share/aruco_controller/package.zsh'
+[32.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/keime/ros2_ws/install/aruco_controller/share/colcon-core/packages/aruco_controller)
+[32.518s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub' for CMake module files
+[32.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/keime/ros2_ws/src/image_pub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/keime/ros2_ws/build/image_pub/build install --record /home/keime/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[32.529s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub' for CMake config files
+[32.541s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub/lib'
+[32.542s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub/bin'
+[32.543s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub/lib/pkgconfig/image_pub.pc'
+[32.546s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages'
+[32.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pub', 'pythonpath')
+[32.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pub/share/image_pub/hook/pythonpath.ps1'
+[32.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/image_pub/share/image_pub/hook/pythonpath.dsv'
+[32.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/image_pub/share/image_pub/hook/pythonpath.sh'
+[32.570s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/image_pub/bin'
+[32.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_pub)
+[32.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pub/share/image_pub/package.ps1'
+[32.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/keime/ros2_ws/install/image_pub/share/image_pub/package.dsv'
+[32.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pub/share/image_pub/package.sh'
+[32.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pub/share/image_pub/package.bash'
+[32.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/image_pub/share/image_pub/package.zsh'
+[32.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/keime/ros2_ws/install/image_pub/share/colcon-core/packages/image_pub)
+[32.609s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub' for CMake module files
+[32.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/keime/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/py_pubsub/prefix_override:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/keime/ros2_ws/build/py_pubsub/build install --record /home/keime/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[32.620s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub' for CMake config files
+[32.630s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub/lib'
+[32.632s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub/bin'
+[32.632s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[32.635s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages'
+[32.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[32.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[32.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[32.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[32.656s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/py_pubsub/bin'
+[32.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[32.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[32.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[32.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[32.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[32.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[32.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/keime/ros2_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[32.692s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/keime/ros2_ws/src/robot_controller_gui' with build type 'ament_python'
+[32.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller_gui', 'ament_prefix_path')
+[32.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/hook/ament_prefix_path.ps1'
+[32.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/hook/ament_prefix_path.dsv'
+[32.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/hook/ament_prefix_path.sh'
+[32.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/keime/ros2_ws/src/robot_controller'
+[35.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.772s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/keime/ros2_ws/src/robot_controller_gui'
+[38.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[43.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/keime/ros2_ws/src/robot_controller_gui': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller_gui/prefix_override:/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller_gui build --build-base /home/keime/ros2_ws/build/robot_controller_gui/build install --record /home/keime/ros2_ws/build/robot_controller_gui/install.log --single-version-externally-managed install_data
+[43.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/keime/ros2_ws/src/robot_controller': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/keime/ros2_ws/build/robot_controller/build install --record /home/keime/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[47.124s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui' for CMake module files
+[47.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/keime/ros2_ws/src/robot_controller_gui' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller_gui/prefix_override:/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller_gui build --build-base /home/keime/ros2_ws/build/robot_controller_gui/build install --record /home/keime/ros2_ws/build/robot_controller_gui/install.log --single-version-externally-managed install_data
+[47.134s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui' for CMake config files
+[47.142s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui/lib'
+[47.143s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui/bin'
+[47.144s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui/lib/pkgconfig/robot_controller_gui.pc'
+[47.147s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages'
+[47.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller_gui', 'pythonpath')
+[47.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/hook/pythonpath.ps1'
+[47.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/hook/pythonpath.dsv'
+[47.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/hook/pythonpath.sh'
+[47.164s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller_gui/bin'
+[47.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller_gui)
+[47.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/package.ps1'
+[47.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/package.dsv'
+[47.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/package.sh'
+[47.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/package.bash'
+[47.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller_gui/share/robot_controller_gui/package.zsh'
+[47.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/keime/ros2_ws/install/robot_controller_gui/share/colcon-core/packages/robot_controller_gui)
+[47.209s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller' for CMake module files
+[47.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/keime/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/keime/ros2_ws/build/robot_controller/build install --record /home/keime/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[47.222s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller' for CMake config files
+[47.232s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller/lib'
+[47.233s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller/bin'
+[47.234s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[47.237s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages'
+[47.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'pythonpath')
+[47.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/hook/pythonpath.ps1'
+[47.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/hook/pythonpath.dsv'
+[47.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/hook/pythonpath.sh'
+[47.255s] Level 1:colcon.colcon_core.environment:checking '/home/keime/ros2_ws/install/robot_controller/bin'
+[47.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[47.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/package.ps1'
+[47.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/package.dsv'
+[47.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/package.sh'
+[47.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/package.bash'
+[47.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/keime/ros2_ws/install/robot_controller/share/robot_controller/package.zsh'
+[47.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/keime/ros2_ws/install/robot_controller/share/colcon-core/packages/robot_controller)
+[47.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.292s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[47.307s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[47.556s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.557s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[47.571s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[47.572s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[47.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/keime/ros2_ws/install/local_setup.ps1'
+[47.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/keime/ros2_ws/install/_local_setup_util_ps1.py'
+[47.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/keime/ros2_ws/install/setup.ps1'
+[47.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/keime/ros2_ws/install/local_setup.sh'
+[47.633s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/keime/ros2_ws/install/_local_setup_util_sh.py'
+[47.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/keime/ros2_ws/install/setup.sh'
+[47.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/keime/ros2_ws/install/local_setup.bash'
+[47.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/keime/ros2_ws/install/setup.bash'
+[47.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/keime/ros2_ws/install/local_setup.zsh'
+[47.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/keime/ros2_ws/install/setup.zsh'

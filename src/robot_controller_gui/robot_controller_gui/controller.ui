@@ -6,46 +6,33 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>658</width>
-    <height>293</height>
+    <width>320</width>
+    <height>240</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="rtrnButton">
+   <widget class="QPushButton" name="stopButton">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>100</y>
-      <width>80</width>
+      <x>110</x>
+      <y>80</y>
+      <width>89</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
-     <string>RightTurn</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="ltrnButton">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>110</y>
-      <width>80</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>LeftTurn</string>
+     <string>Stop</string>
     </property>
    </widget>
    <widget class="QPushButton" name="fwrdButton">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>110</x>
       <y>30</y>
-      <width>80</width>
+      <width>89</width>
       <height>25</height>
      </rect>
     </property>
@@ -53,39 +40,58 @@
      <string>Forward</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="stopButton">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>110</y>
-      <width>87</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>StopButton</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="bwrdButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>200</y>
-      <width>80</width>
+      <x>110</x>
+      <y>130</y>
+      <width>89</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
-     <string>Backward</string>
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ltrnButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Left</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rtrnButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Right</string>
     </property>
    </widget>
   </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>320</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <tabstops>
-  <tabstop>rtrnButton</tabstop>
-  <tabstop>ltrnButton</tabstop>
- </tabstops>
  <resources/>
  <connections>
   <connection>
@@ -95,12 +101,12 @@
    <slot>fwrd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>373</x>
-     <y>252</y>
+     <x>171</x>
+     <y>68</y>
     </hint>
     <hint type="destinationlabel">
-     <x>249</x>
-     <y>52</y>
+     <x>243</x>
+     <y>39</y>
     </hint>
    </hints>
   </connection>
@@ -111,28 +117,12 @@
    <slot>rtrn()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>543</x>
-     <y>252</y>
+     <x>267</x>
+     <y>122</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
-     <y>87</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>stopButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>stop()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>255</x>
-     <y>252</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>222</x>
-     <y>114</y>
+     <x>290</x>
+     <y>76</y>
     </hint>
    </hints>
   </connection>
@@ -143,12 +133,28 @@
    <slot>ltrn()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>587</x>
-     <y>252</y>
+     <x>39</x>
+     <y>111</y>
     </hint>
     <hint type="destinationlabel">
-     <x>214</x>
-     <y>150</y>
+     <x>16</x>
+     <y>54</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>stopButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>114</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>190</y>
     </hint>
    </hints>
   </connection>
@@ -159,12 +165,12 @@
    <slot>bwrd()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>95</x>
-     <y>252</y>
+     <x>123</x>
+     <y>165</y>
     </hint>
     <hint type="destinationlabel">
-     <x>161</x>
-     <y>211</y>
+     <x>85</x>
+     <y>206</y>
     </hint>
    </hints>
   </connection>
@@ -172,8 +178,8 @@
  <slots>
   <slot>fwrd()</slot>
   <slot>rtrn()</slot>
-  <slot>stop()</slot>
   <slot>ltrn()</slot>
+  <slot>stop()</slot>
   <slot>bwrd()</slot>
  </slots>
 </ui>

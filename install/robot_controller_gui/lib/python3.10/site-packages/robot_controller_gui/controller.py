@@ -18,20 +18,20 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.stopButton = QtWidgets.QPushButton(self.centralwidget)
-        self.stopButton.setGeometry(QtCore.QRect(60, 70, 89, 25))
+        self.stopButton.setGeometry(QtCore.QRect(110, 80, 89, 25))
         self.stopButton.setObjectName("stopButton")
         self.fwrdButton = QtWidgets.QPushButton(self.centralwidget)
-        self.fwrdButton.setGeometry(QtCore.QRect(60, 10, 89, 25))
+        self.fwrdButton.setGeometry(QtCore.QRect(110, 30, 89, 25))
         self.fwrdButton.setObjectName("fwrdButton")
         self.bwrdButton = QtWidgets.QPushButton(self.centralwidget)
-        self.bwrdButton.setGeometry(QtCore.QRect(60, 130, 89, 25))
+        self.bwrdButton.setGeometry(QtCore.QRect(110, 130, 89, 25))
         self.bwrdButton.setObjectName("bwrdButton")
-        self.rtrnButton = QtWidgets.QPushButton(self.centralwidget)
-        self.rtrnButton.setGeometry(QtCore.QRect(110, 40, 89, 25))
-        self.rtrnButton.setObjectName("rtrnButton")
         self.ltrnButton = QtWidgets.QPushButton(self.centralwidget)
-        self.ltrnButton.setGeometry(QtCore.QRect(10, 100, 89, 25))
+        self.ltrnButton.setGeometry(QtCore.QRect(10, 80, 89, 25))
         self.ltrnButton.setObjectName("ltrnButton")
+        self.rtrnButton = QtWidgets.QPushButton(self.centralwidget)
+        self.rtrnButton.setGeometry(QtCore.QRect(220, 80, 89, 25))
+        self.rtrnButton.setObjectName("rtrnButton")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 320, 28))
@@ -44,16 +44,16 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.fwrdButton.clicked.connect(MainWindow.fwrd) # type: ignore
         self.rtrnButton.clicked.connect(MainWindow.rtrn) # type: ignore
-        self.stopButton.clicked.connect(MainWindow.stop) # type: ignore
         self.ltrnButton.clicked.connect(MainWindow.ltrn) # type: ignore
+        self.stopButton.clicked.connect(MainWindow.stop) # type: ignore
         self.bwrdButton.clicked.connect(MainWindow.bwrd) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.stopButton.setText(_translate("MainWindow", "StopButton"))
+        self.stopButton.setText(_translate("MainWindow", "Stop"))
         self.fwrdButton.setText(_translate("MainWindow", "Forward"))
-        self.bwrdButton.setText(_translate("MainWindow", "Backward"))
-        self.rtrnButton.setText(_translate("MainWindow", "RightTurn"))
-        self.ltrnButton.setText(_translate("MainWindow", "LeftTurn"))
+        self.bwrdButton.setText(_translate("MainWindow", "Back"))
+        self.ltrnButton.setText(_translate("MainWindow", "Left"))
+        self.rtrnButton.setText(_translate("MainWindow", "Right"))

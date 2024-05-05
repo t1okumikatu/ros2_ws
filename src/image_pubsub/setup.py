@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'img_publisher = image_pubsub.image_publisher:main',
+            #'img_publisher = image_pubsub.image_publisher:main',
             'img_subscriber = image_pubsub.image_subscriber:main',
             'command_publisher_gui = robot_controller_gui.command_publisher_gui:main'
         ],

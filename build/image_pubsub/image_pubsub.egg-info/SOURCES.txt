@@ -8,8 +8,8 @@ setup.py
 ../../build/image_pubsub/image_pubsub.egg-info/requires.txt
 ../../build/image_pubsub/image_pubsub.egg-info/top_level.txt
 ../../build/image_pubsub/image_pubsub.egg-info/zip-safe
+image_pubsub/BACKimage_publisher.py
 image_pubsub/__init__.py
-image_pubsub/image_publisher.py
 image_pubsub/image_subscriber.py
 launch/my_launch.py
 resource/image_pubsub

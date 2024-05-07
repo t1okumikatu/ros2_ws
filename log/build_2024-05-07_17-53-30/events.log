@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000265] (aruco_controller) JobQueued: {'identifier': 'aruco_controller', 'dependencies': OrderedDict()}
+[0.000299] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.000318] (image_pubsub) JobQueued: {'identifier': 'image_pubsub', 'dependencies': OrderedDict()}
+[0.000331] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000345] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.000367] (robot_controller_gui) JobQueued: {'identifier': 'robot_controller_gui', 'dependencies': OrderedDict()}
+[0.000383] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.000397] (aruco_controller) JobStarted: {'identifier': 'aruco_controller'}
+[0.069962] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.099217] (-) TimerEvent: {}
+[0.199886] (-) TimerEvent: {}
+[0.300553] (-) TimerEvent: {}
+[0.400893] (-) TimerEvent: {}
+[0.501198] (-) TimerEvent: {}
+[0.601588] (-) TimerEvent: {}
+[0.701860] (-) TimerEvent: {}
+[0.802119] (-) TimerEvent: {}
+[0.902567] (-) TimerEvent: {}
+[1.002840] (-) TimerEvent: {}
+[1.099115] (image_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pub', 'build', '--build-base', '/home/keime/ros2_ws/build/image_pub/build', 'install', '--record', '/home/keime/ros2_ws/build/image_pub/install.log', '--single-version-externally-managed'], 'cwd': '/home/keime/ros2_ws/src/image_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/keime', 'OLDPWD': '/home/keime/ros2_ws/src/robot_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', 'NAME': '23-11-28keime', 'WSL_INTEROP': '/run/WSL/503_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin', 'WT_SESSION': '8486b9a2-5138-471a-8fff-27d5c101e5a3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/image_pub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.103053] (-) TimerEvent: {}
+[1.111885] (aruco_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_controller', 'build', '--build-base', '/home/keime/ros2_ws/build/aruco_controller/build', 'install', '--record', '/home/keime/ros2_ws/build/aruco_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/keime/ros2_ws/src/aruco_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/keime', 'OLDPWD': '/home/keime/ros2_ws/src/robot_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', 'NAME': '23-11-28keime', 'WSL_INTEROP': '/run/WSL/503_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin', 'WT_SESSION': '8486b9a2-5138-471a-8fff-27d5c101e5a3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/aruco_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/aruco_controller/prefix_override:/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.203166] (-) TimerEvent: {}
+[1.303510] (-) TimerEvent: {}
+[1.308996] (image_pub) StdoutLine: {'line': b'running egg_info\n'}
+[1.309634] (image_pub) StdoutLine: {'line': b'writing ../../build/image_pub/image_pub.egg-info/PKG-INFO\n'}
+[1.314711] (aruco_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.315487] (aruco_controller) StdoutLine: {'line': b'writing ../../build/aruco_controller/aruco_controller.egg-info/PKG-INFO\n'}
+[1.321311] (image_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt\n'}
+[1.321491] (image_pub) StdoutLine: {'line': b'writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt\n'}
+[1.321554] (image_pub) StdoutLine: {'line': b'writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt\n'}
+[1.321602] (image_pub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt\n'}
+[1.321646] (aruco_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_controller/aruco_controller.egg-info/dependency_links.txt\n'}
+[1.321725] (aruco_controller) StdoutLine: {'line': b'writing entry points to ../../build/aruco_controller/aruco_controller.egg-info/entry_points.txt\n'}
+[1.321800] (aruco_controller) StdoutLine: {'line': b'writing requirements to ../../build/aruco_controller/aruco_controller.egg-info/requires.txt\n'}
+[1.321847] (aruco_controller) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_controller/aruco_controller.egg-info/top_level.txt\n'}
+[1.321891] (aruco_controller) StdoutLine: {'line': b"reading manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'\n"}
+[1.321935] (image_pub) StdoutLine: {'line': b"reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[1.322553] (image_pub) StdoutLine: {'line': b"writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[1.322684] (image_pub) StdoutLine: {'line': b'running build\n'}
+[1.322749] (image_pub) StdoutLine: {'line': b'running build_py\n'}
+[1.323090] (aruco_controller) StdoutLine: {'line': b"writing manifest file '../../build/aruco_controller/aruco_controller.egg-info/SOURCES.txt'\n"}
+[1.323331] (aruco_controller) StdoutLine: {'line': b'running build\n'}
+[1.323426] (aruco_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.324326] (aruco_controller) StdoutLine: {'line': b'running install\n'}
+[1.324432] (image_pub) StdoutLine: {'line': b'running install\n'}
+[1.324820] (aruco_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.324921] (image_pub) StdoutLine: {'line': b'running install_lib\n'}
+[1.325970] (aruco_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.327000] (image_pub) StdoutLine: {'line': b'running install_data\n'}
+[1.327137] (aruco_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.328254] (image_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.328722] (aruco_controller) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.329190] (aruco_controller) StdoutLine: {'line': b'Copying ../../build/aruco_controller/aruco_controller.egg-info to /home/keime/ros2_ws/install/aruco_controller/lib/python3.10/site-packages/aruco_controller-0.0.0-py3.10.egg-info\n'}
+[1.330023] (aruco_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.330207] (image_pub) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.330567] (image_pub) StdoutLine: {'line': b'Copying ../../build/image_pub/image_pub.egg-info to /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info\n'}
+[1.331616] (image_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.347855] (aruco_controller) StdoutLine: {'line': b'Installing controller_node script to /home/keime/ros2_ws/install/aruco_controller/lib/aruco_controller\n'}
+[1.348640] (aruco_controller) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/aruco_controller/install.log'\n"}
+[1.349311] (image_pub) StdoutLine: {'line': b'Installing action script to /home/keime/ros2_ws/install/image_pub/lib/image_pub\n'}
+[1.349959] (image_pub) StdoutLine: {'line': b'Installing img_publisher script to /home/keime/ros2_ws/install/image_pub/lib/image_pub\n'}
+[1.350402] (image_pub) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/image_pub/install.log'\n"}
+[1.373736] (aruco_controller) CommandEnded: {'returncode': 0}
+[1.404612] (-) TimerEvent: {}
+[1.427035] (aruco_controller) JobEnded: {'identifier': 'aruco_controller', 'rc': 0}
+[1.428484] (image_pubsub) JobStarted: {'identifier': 'image_pubsub'}
+[1.478204] (image_pub) CommandEnded: {'returncode': 0}
+[1.504930] (-) TimerEvent: {}
+[1.518270] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[1.519426] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[1.605115] (-) TimerEvent: {}
+[1.705438] (-) TimerEvent: {}
+[1.805863] (-) TimerEvent: {}
+[1.906224] (-) TimerEvent: {}
+[2.007028] (-) TimerEvent: {}
+[2.107337] (-) TimerEvent: {}
+[2.207592] (-) TimerEvent: {}
+[2.307877] (-) TimerEvent: {}
+[2.408157] (-) TimerEvent: {}
+[2.410063] (image_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pubsub', 'build', '--build-base', '/home/keime/ros2_ws/build/image_pubsub/build', 'install', '--record', '/home/keime/ros2_ws/build/image_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/keime/ros2_ws/src/image_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/keime', 'OLDPWD': '/home/keime/ros2_ws/src/robot_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', 'NAME': '23-11-28keime', 'WSL_INTEROP': '/run/WSL/503_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin', 'WT_SESSION': '8486b9a2-5138-471a-8fff-27d5c101e5a3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/image_pubsub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/image_pubsub/prefix_override:/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.414497] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/keime/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/keime/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/keime/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/keime', 'OLDPWD': '/home/keime/ros2_ws/src/robot_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', 'NAME': '23-11-28keime', 'WSL_INTEROP': '/run/WSL/503_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin', 'WT_SESSION': '8486b9a2-5138-471a-8fff-27d5c101e5a3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/py_pubsub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/py_pubsub/prefix_override:/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.508245] (-) TimerEvent: {}
+[2.608527] (-) TimerEvent: {}
+[2.615974] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.616678] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.626333] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.626620] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.626827] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.626995] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.628777] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.630139] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.630336] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.630472] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.632008] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.632427] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.634068] (image_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.634275] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.634717] (image_pubsub) StdoutLine: {'line': b'writing ../../build/image_pubsub/image_pubsub.egg-info/PKG-INFO\n'}
+[2.635379] (image_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pubsub/image_pubsub.egg-info/dependency_links.txt\n'}
+[2.635563] (image_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/image_pubsub/image_pubsub.egg-info/entry_points.txt\n'}
+[2.635711] (image_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/image_pubsub/image_pubsub.egg-info/requires.txt\n'}
+[2.635822] (image_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pubsub/image_pubsub.egg-info/top_level.txt\n'}
+[2.635968] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.637219] (image_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'\n"}
+[2.637746] (py_pubsub) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.638031] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/keime/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[2.639044] (image_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/image_pubsub/image_pubsub.egg-info/SOURCES.txt'\n"}
+[2.639150] (image_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.639203] (image_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.639362] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.641015] (image_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.641441] (image_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.643419] (image_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.645250] (image_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.646851] (image_pubsub) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.647213] (image_pubsub) StdoutLine: {'line': b'Copying ../../build/image_pubsub/image_pubsub.egg-info to /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub-0.0.0-py3.10.egg-info\n'}
+[2.648264] (image_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.656686] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/keime/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.657431] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/keime/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.657830] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/py_pubsub/install.log'\n"}
+[2.665863] (image_pubsub) StdoutLine: {'line': b'Installing command_publisher_gui script to /home/keime/ros2_ws/install/image_pubsub/lib/image_pubsub\n'}
+[2.666801] (image_pubsub) StdoutLine: {'line': b'Installing img_subscriber script to /home/keime/ros2_ws/install/image_pubsub/lib/image_pubsub\n'}
+[2.667308] (image_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/image_pubsub/install.log'\n"}
+[2.690432] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.708736] (-) TimerEvent: {}
+[2.722628] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.723635] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[2.773737] (image_pubsub) CommandEnded: {'returncode': 0}
+[2.814831] (-) TimerEvent: {}
+[2.823750] (image_pubsub) JobEnded: {'identifier': 'image_pubsub', 'rc': 0}
+[2.824312] (robot_controller_gui) JobStarted: {'identifier': 'robot_controller_gui'}
+[2.915097] (-) TimerEvent: {}
+[3.015457] (-) TimerEvent: {}
+[3.116509] (-) TimerEvent: {}
+[3.217154] (-) TimerEvent: {}
+[3.317629] (-) TimerEvent: {}
+[3.417956] (-) TimerEvent: {}
+[3.518234] (-) TimerEvent: {}
+[3.618568] (-) TimerEvent: {}
+[3.715850] (robot_controller_gui) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller_gui', 'build', '--build-base', '/home/keime/ros2_ws/build/robot_controller_gui/build', 'install', '--record', '/home/keime/ros2_ws/build/robot_controller_gui/install.log', '--single-version-externally-managed'], 'cwd': '/home/keime/ros2_ws/src/robot_controller_gui', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/keime', 'OLDPWD': '/home/keime/ros2_ws/src/robot_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', 'NAME': '23-11-28keime', 'WSL_INTEROP': '/run/WSL/503_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin', 'WT_SESSION': '8486b9a2-5138-471a-8fff-27d5c101e5a3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/robot_controller_gui', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/robot_controller_gui/prefix_override:/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.718021] (robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/keime/ros2_ws/build/robot_controller/build', 'install', '--record', '/home/keime/ros2_ws/build/robot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/keime/ros2_ws/src/robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'keime', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/keime', 'OLDPWD': '/home/keime/ros2_ws/src/robot_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'keime', 'NAME': '23-11-28keime', 'WSL_INTEROP': '/run/WSL/503_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin', 'WT_SESSION': '8486b9a2-5138-471a-8fff-27d5c101e5a3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/keime/ros2_ws/build/robot_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/keime/ros2_ws/build/robot_controller/prefix_override:/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.718583] (-) TimerEvent: {}
+[3.818819] (-) TimerEvent: {}
+[3.919170] (-) TimerEvent: {}
+[3.922584] (robot_controller_gui) StdoutLine: {'line': b'running egg_info\n'}
+[3.923038] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.923275] (robot_controller_gui) StdoutLine: {'line': b'writing ../../build/robot_controller_gui/robot_controller_gui.egg-info/PKG-INFO\n'}
+[3.924307] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[3.932254] (robot_controller_gui) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller_gui/robot_controller_gui.egg-info/dependency_links.txt\n'}
+[3.932405] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[3.932507] (robot_controller_gui) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller_gui/robot_controller_gui.egg-info/entry_points.txt\n'}
+[3.932560] (robot_controller_gui) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller_gui/robot_controller_gui.egg-info/requires.txt\n'}
+[3.932619] (robot_controller_gui) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller_gui/robot_controller_gui.egg-info/top_level.txt\n'}
+[3.932919] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[3.933163] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[3.933335] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[3.934264] (robot_controller_gui) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller_gui/robot_controller_gui.egg-info/SOURCES.txt'\n"}
+[3.935112] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[3.935603] (robot_controller_gui) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller_gui/robot_controller_gui.egg-info/SOURCES.txt'\n"}
+[3.935687] (robot_controller_gui) StdoutLine: {'line': b'running build\n'}
+[3.935744] (robot_controller_gui) StdoutLine: {'line': b'running build_py\n'}
+[3.936611] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[3.936696] (robot_controller) StdoutLine: {'line': b'running build\n'}
+[3.936746] (robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.937948] (robot_controller_gui) StdoutLine: {'line': b'running install\n'}
+[3.938250] (robot_controller_gui) StdoutLine: {'line': b'running install_lib\n'}
+[3.938648] (robot_controller) StdoutLine: {'line': b'running install\n'}
+[3.939051] (robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.940121] (robot_controller_gui) StdoutLine: {'line': b'running install_data\n'}
+[3.940820] (robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.941450] (robot_controller_gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.942936] (robot_controller_gui) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages/robot_controller_gui-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.943179] (robot_controller_gui) StdoutLine: {'line': b'Copying ../../build/robot_controller_gui/robot_controller_gui.egg-info to /home/keime/ros2_ws/install/robot_controller_gui/lib/python3.10/site-packages/robot_controller_gui-0.0.0-py3.10.egg-info\n'}
+[3.943462] (robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.944013] (robot_controller_gui) StdoutLine: {'line': b'running install_scripts\n'}
+[3.945150] (robot_controller) StdoutLine: {'line': b"removing '/home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.945507] (robot_controller) StdoutLine: {'line': b'Copying ../../build/robot_controller/robot_controller.egg-info to /home/keime/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info\n'}
+[3.946399] (robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.961186] (robot_controller_gui) StdoutLine: {'line': b'Installing command_publisher_gui script to /home/keime/ros2_ws/install/robot_controller_gui/lib/robot_controller_gui\n'}
+[3.963344] (robot_controller) StdoutLine: {'line': b'Installing action script to /home/keime/ros2_ws/install/robot_controller/lib/robot_controller\n'}
+[3.963723] (robot_controller_gui) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/robot_controller_gui/install.log'\n"}
+[3.964117] (robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/keime/ros2_ws/build/robot_controller/install.log'\n"}
+[3.990086] (robot_controller) CommandEnded: {'returncode': 0}
+[4.019741] (-) TimerEvent: {}
+[4.028125] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[4.029657] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[4.068793] (robot_controller_gui) CommandEnded: {'returncode': 0}
+[4.105901] (robot_controller_gui) JobEnded: {'identifier': 'robot_controller_gui', 'rc': 0}
+[4.109253] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[4.109327] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/keime/ros2_ws/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/keime/ros2_ws/install/robot_interfaces'], 'cwd': '/home/keime/ros2_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keime'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/keime'), ('OLDPWD', '/home/keime/ros2_ws/src/robot_interfaces'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'keime'), ('NAME', '23-11-28keime'), ('WSL_INTEROP', '/run/WSL/503_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/t1oku/AppData/Local/Microsoft/WinGet/Packages/Ookla.Speedtest.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin'), ('WT_SESSION', '8486b9a2-5138-471a-8fff-27d5c101e5a3'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/keime/ros2_ws/build/robot_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.120137] (-) TimerEvent: {}
+[4.220809] (-) TimerEvent: {}
+[4.321500] (-) TimerEvent: {}
+[4.422029] (-) TimerEvent: {}
+[4.522505] (-) TimerEvent: {}
+[4.615217] (robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.622627] (-) TimerEvent: {}
+[4.723157] (-) TimerEvent: {}
+[4.823807] (-) TimerEvent: {}
+[4.924368] (-) TimerEvent: {}
+[5.024884] (-) TimerEvent: {}
+[5.125239] (-) TimerEvent: {}
+[5.225672] (-) TimerEvent: {}
+[5.326035] (-) TimerEvent: {}
+[5.426608] (-) TimerEvent: {}
+[5.440239] (robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.526968] (-) TimerEvent: {}
+[5.627425] (-) TimerEvent: {}
+[5.727874] (-) TimerEvent: {}
+[5.828475] (-) TimerEvent: {}
+[5.929050] (-) TimerEvent: {}
+[5.965292] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.029274] (-) TimerEvent: {}
+[6.129705] (-) TimerEvent: {}
+[6.162084] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.167636] (robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.179154] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.180282] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.186228] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.229884] (-) TimerEvent: {}
+[6.330311] (-) TimerEvent: {}
+[6.371664] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.377393] (robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.377523] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.378025] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.406211] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.430548] (-) TimerEvent: {}
+[6.531032] (-) TimerEvent: {}
+[6.564892] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.631143] (-) TimerEvent: {}
+[6.666903] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.731263] (-) TimerEvent: {}
+[6.744875] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.746943] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.750790] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.756282] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.765503] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.831547] (-) TimerEvent: {}
+[6.932218] (-) TimerEvent: {}
+[7.032973] (-) TimerEvent: {}
+[7.078027] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.133181] (-) TimerEvent: {}
+[7.137978] (robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):\n'}
+[7.138141] (robot_interfaces) StderrLine: {'line': b'  rosidl_generate_interfaces() must be called before ament_package()\n'}
+[7.138197] (robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.138243] (robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_generate_interfaces)\n'}
+[7.138287] (robot_interfaces) StderrLine: {'line': b'\n'}
+[7.138330] (robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[7.138407] (robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.138466] (robot_interfaces) StdoutLine: {'line': b'See also "/home/keime/ros2_ws/build/robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[7.143324] (robot_interfaces) CommandEnded: {'returncode': 1}
+[7.174354] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 1}
+[7.185399] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/keime/ros2_ws/src/robot_interfaces:srv/RobotCommand.srv"
+  ]
+}

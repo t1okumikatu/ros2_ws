@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/RobotCommand.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct RobotCommand_Request {
+      int64 dist;
+    };
+    struct RobotCommand_Response {
+      boolean done;
+    };
+  };
+};

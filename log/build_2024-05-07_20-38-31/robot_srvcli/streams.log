@@ -1,0 +1,33 @@
+[0.638s] Invoking command in '/home/keime/ros2_ws/src/robot_srvcli': AMENT_PREFIX_PATH=/home/keime/ros2_ws/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/ros2_ws/install/robot_interfaces LD_LIBRARY_PATH=/home/keime/ros2_ws/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/ros2_ws/build/robot_srvcli/prefix_override:/home/keime/ros2_ws/install/robot_srvcli/lib/python3.10/site-packages:/home/keime/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_srvcli build --build-base /home/keime/ros2_ws/build/robot_srvcli/build install --record /home/keime/ros2_ws/build/robot_srvcli/install.log --single-version-externally-managed
+[0.799s] running egg_info
+[0.800s] creating ../../build/robot_srvcli/robot_srvcli.egg-info
+[0.800s] writing ../../build/robot_srvcli/robot_srvcli.egg-info/PKG-INFO
+[0.800s] writing dependency_links to ../../build/robot_srvcli/robot_srvcli.egg-info/dependency_links.txt
+[0.800s] writing entry points to ../../build/robot_srvcli/robot_srvcli.egg-info/entry_points.txt
+[0.800s] writing requirements to ../../build/robot_srvcli/robot_srvcli.egg-info/requires.txt
+[0.800s] writing top-level names to ../../build/robot_srvcli/robot_srvcli.egg-info/top_level.txt
+[0.800s] writing manifest file '../../build/robot_srvcli/robot_srvcli.egg-info/SOURCES.txt'
+[0.801s] reading manifest file '../../build/robot_srvcli/robot_srvcli.egg-info/SOURCES.txt'
+[0.802s] writing manifest file '../../build/robot_srvcli/robot_srvcli.egg-info/SOURCES.txt'
+[0.802s] running build
+[0.802s] running build_py
+[0.802s] creating /home/keime/ros2_ws/build/robot_srvcli/build
+[0.802s] creating /home/keime/ros2_ws/build/robot_srvcli/build/lib
+[0.802s] creating /home/keime/ros2_ws/build/robot_srvcli/build/lib/robot_srvcli
+[0.802s] copying robot_srvcli/__init__.py -> /home/keime/ros2_ws/build/robot_srvcli/build/lib/robot_srvcli
+[0.802s] running install
+[0.803s] running install_lib
+[0.803s] creating /home/keime/ros2_ws/install/robot_srvcli/lib/python3.10/site-packages/robot_srvcli
+[0.803s] copying /home/keime/ros2_ws/build/robot_srvcli/build/lib/robot_srvcli/__init__.py -> /home/keime/ros2_ws/install/robot_srvcli/lib/python3.10/site-packages/robot_srvcli
+[0.803s] byte-compiling /home/keime/ros2_ws/install/robot_srvcli/lib/python3.10/site-packages/robot_srvcli/__init__.py to __init__.cpython-310.pyc
+[0.803s] running install_data
+[0.804s] creating /home/keime/ros2_ws/install/robot_srvcli/share/ament_index
+[0.804s] creating /home/keime/ros2_ws/install/robot_srvcli/share/ament_index/resource_index
+[0.804s] creating /home/keime/ros2_ws/install/robot_srvcli/share/ament_index/resource_index/packages
+[0.804s] copying resource/robot_srvcli -> /home/keime/ros2_ws/install/robot_srvcli/share/ament_index/resource_index/packages
+[0.804s] copying package.xml -> /home/keime/ros2_ws/install/robot_srvcli/share/robot_srvcli
+[0.804s] running install_egg_info
+[0.805s] Copying ../../build/robot_srvcli/robot_srvcli.egg-info to /home/keime/ros2_ws/install/robot_srvcli/lib/python3.10/site-packages/robot_srvcli-0.0.0-py3.10.egg-info
+[0.805s] running install_scripts
+[0.820s] writing list of installed files to '/home/keime/ros2_ws/build/robot_srvcli/install.log'
+[0.840s] Invoked command in '/home/keime/ros2_ws/src/robot_srvcli' returned '0': AMENT_PREFIX_PATH=/home/keime/ros2_ws/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keime/ros2_ws/install/robot_interfaces LD_LIBRARY_PATH=/home/keime/ros2_ws/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keime/ros2_ws/build/robot_srvcli/prefix_override:/home/keime/ros2_ws/install/robot_srvcli/lib/python3.10/site-packages:/home/keime/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_srvcli build --build-base /home/keime/ros2_ws/build/robot_srvcli/build install --record /home/keime/ros2_ws/build/robot_srvcli/install.log --single-version-externally-managed

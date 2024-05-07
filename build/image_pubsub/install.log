@@ -1,14 +1,8 @@
 /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/image_subscriber.py
-<<<<<<< HEAD
 /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__init__.py
 /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/BACKimage_publisher.py
 /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__pycache__/image_subscriber.cpython-310.pyc
 /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__pycache__/__init__.cpython-310.pyc
-=======
-/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/BACKimage_publisher.py
-/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__pycache__/__init__.cpython-310.pyc
-/home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__pycache__/image_subscriber.cpython-310.pyc
->>>>>>> 7e4fa2d4cbb40a5b0c139318a8acfa77c3e4a486
 /home/keime/ros2_ws/install/image_pubsub/lib/python3.10/site-packages/image_pubsub/__pycache__/BACKimage_publisher.cpython-310.pyc
 /home/keime/ros2_ws/install/image_pubsub/share/ament_index/resource_index/packages/image_pubsub
 /home/keime/ros2_ws/install/image_pubsub/share/image_pubsub/package.xml

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        'client=robot_srvcli.client_member_function:main',
         ],
     },
 )

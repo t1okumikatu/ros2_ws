@@ -1,0 +1,22 @@
+[8.639s] Invoking command in '/home/keime/ros2_ws/src/image_pub': PYTHONPATH=/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/keime/ros2_ws/build/image_pub/build install --record /home/keime/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[11.403s] running egg_info
+[11.409s] writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+[11.413s] writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+[11.415s] writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+[11.417s] writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+[11.419s] writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+[11.437s] reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[11.449s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[11.450s] running build
+[11.452s] running build_py
+[11.458s] running install
+[11.461s] running install_lib
+[11.478s] running install_data
+[11.481s] running install_egg_info
+[11.501s] removing '/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[11.507s] Copying ../../build/image_pub/image_pub.egg-info to /home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages/image_pub-0.0.0-py3.10.egg-info
+[11.522s] running install_scripts
+[11.729s] Installing action script to /home/keime/ros2_ws/install/image_pub/lib/image_pub
+[11.732s] Installing img_publisher script to /home/keime/ros2_ws/install/image_pub/lib/image_pub
+[11.736s] writing list of installed files to '/home/keime/ros2_ws/build/image_pub/install.log'
+[11.998s] Invoked command in '/home/keime/ros2_ws/src/image_pub' returned '0': PYTHONPATH=/home/keime/ros2_ws/build/image_pub/prefix_override:/home/keime/ros2_ws/install/image_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/keime/ros2_ws/build/image_pub/build install --record /home/keime/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data

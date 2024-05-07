@@ -9,7 +9,7 @@ def generate_launch_description():
      ),
      Node(
        package='robot_controller', 
-       executable='robot_controller_action', #ノートから受信 4
+       executable='action', #ノートから受信 4
      ),
    ])
 
